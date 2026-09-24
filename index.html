@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar Inmobiliario</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #eef1ee;
+    --surface: #ffffff;
+    --surface-2: #e6ebe7;
+    --text: #16211e;
+    --text-muted: #59665f;
+    --accent: #1f6f64;
+    --accent-soft: #dcece6;
+    --good: #1c7a45;
+    --good-soft: #e1f2e5;
+    --warn: #9c6407;
+    --warn-soft: #f8ecd7;
+    --border: #dadfd8;
+    --shadow: 0 1px 2px rgba(20, 30, 27, 0.06), 0 8px 24px -16px rgba(20, 30, 27, 0.25);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1615;
+      --surface: #17201e;
+      --surface-2: #1c2624;
+      --text: #eaf0ed;
+      --text-muted: #9bb0a9;
+      --accent: #63cdb8;
+      --accent-soft: #1c3733;
+      --good: #7ed79a;
+      --good-soft: #1c3324;
+      --warn: #e7ab5c;
+      --warn-soft: #392c15;
+      --border: #29342f;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -16px rgba(0,0,0,0.6);
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1615;
+    --surface: #17201e;
+    --surface-2: #1c2624;
+    --text: #eaf0ed;
+    --text-muted: #9bb0a9;
+    --accent: #63cdb8;
+    --accent-soft: #1c3733;
+    --good: #7ed79a;
+    --good-soft: #1c3324;
+    --warn: #e7ab5c;
+    --warn-soft: #392c15;
+    --border: #29342f;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -16px rgba(0,0,0,0.6);
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Public Sans", -apple-system, "Segoe UI", sans-serif;
+    padding-inline: 16px;
+    padding-block: 28px 64px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 28px;
+  }
+  .eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  h1 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 600;
+    font-size: clamp(28px, 5vw, 38px);
+    margin: 0;
+    text-wrap: balance;
+    line-height: 1.05;
+  }
+  .status-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 22px;
+    align-items: baseline;
+    color: var(--text-muted);
+    font-size: 13.5px;
+  }
+  .status-row strong { color: var(--text); font-weight: 600; }
+
+  .stats {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+  }
+  .stat-chip {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 13px;
+    color: var(--text-muted);
+    box-shadow: var(--shadow);
+  }
+  .stat-chip b {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 15px;
+    color: var(--text);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .filter-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 26px;
+  }
+  .filter-btn {
+    font-family: "Public Sans", -apple-system, "Segoe UI", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 7px 16px;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+  .filter-btn:hover { color: var(--text); }
+  .filter-btn.is-active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--surface);
+  }
+
+  section.group { margin-bottom: 34px; }
+  section.group.is-hidden { display: none; }
+  .group-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  .group-title {
+    font-family: "Fraunces", Georgia, serif;
+    font-size: 21px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .group-budget {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    font-family: "IBM Plex Mono", monospace;
+  }
+
+  .cards { display: flex; flex-direction: column; gap: 10px; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px 18px;
+  }
+  .card.confirmed { border-left-color: var(--good); }
+  .card.to_verify { border-left-color: var(--warn); }
+
+  .card-main { flex: 1 1 280px; min-width: 0; }
+  .card-title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.35;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .card-title:hover { color: var(--accent); }
+  .card-meta {
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    font-size: 12.5px;
+    color: var(--text-muted);
+  }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 9px;
+    border-radius: 999px;
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+  .pill.loc { background: var(--accent-soft); color: var(--accent); }
+  .pill.new { background: var(--accent); color: var(--surface); }
+  .pill.age { background: var(--surface-2); color: var(--text-muted); }
+
+  .card-price {
+    flex: 0 0 auto;
+    text-align: right;
+    align-self: center;
+    min-width: 130px;
+  }
+  .price-value {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 18px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--good);
+  }
+  .price-tbd {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--warn);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .card-price small {
+    display: block;
+    color: var(--text-muted);
+    font-size: 11px;
+    margin-top: 3px;
+  }
+
+  .empty {
+    border: 1px dashed var(--border);
+    border-radius: 10px;
+    padding: 20px 16px;
+    color: var(--text-muted);
+    font-size: 13.5px;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 36px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+    font-size: 12.5px;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+  footer strong { color: var(--text); }
+
+  @media (max-width: 480px) {
+    .card { flex-direction: column; }
+    .card-main { flex-basis: auto; }
+    .card-price { text-align: left; align-self: flex-start; }
+  }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="eyebrow">MercadoLibre Uruguay · búsqueda diaria</span>
+    <h1>Radar Inmobiliario</h1>
+    <div class="status-row">
+      <span id="last-run">Última búsqueda: cargando…</span>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="filter-row" id="filter-row" role="tablist" aria-label="Filtrar por zona">
+    <button type="button" class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+    <button type="button" class="filter-btn" data-filter="ciudad_vieja" role="tab" aria-selected="false">Ciudad Vieja</button>
+    <button type="button" class="filter-btn" data-filter="costa" role="tab" aria-selected="false">Piriápolis y Punta del Este</button>
+  </div>
+
+  <section class="group" id="group-ciudad_vieja">
+    <div class="group-head">
+      <h2 class="group-title">Ciudad Vieja</h2>
+      <span class="group-budget">Monoambiente · 1 o 2 dormitorios · hasta USD 79.000</span>
+    </div>
+    <div class="cards" id="cards-ciudad_vieja"></div>
+  </section>
+
+  <section class="group" id="group-costa">
+    <div class="group-head">
+      <h2 class="group-title">Piriápolis / Punta del Este</h2>
+      <span class="group-budget">Cualquier tamaño · hasta USD 95.000</span>
+    </div>
+    <div class="cards" id="cards-costa"></div>
+  </section>
+
+  <footer>
+    <strong>Cómo funciona:</strong> esta página se actualiza sola todos los días a las 13:00 (Montevideo) con las publicaciones de MercadoLibre Uruguay que cumplen los criterios de cada zona. Se agregan las nuevas y se quitan las que ya no están publicadas (vendidas o dadas de baja). La etiqueta "Publicado hoy / esta semana" es la que muestra MercadoLibre; cuando no aparece, la publicación es más antigua. Tocá el título para abrir la publicación.
+  </footer>
+</div>
+
+<script>
+(function () {
+  const fmtDate = (iso) => {
+    if (!iso) return "";
+    try {
+      const d = new Date(iso);
+      return d.toLocaleDateString("es-UY", { day: "2-digit", month: "2-digit", year: "numeric" });
+    } catch (e) { return ""; }
+  };
+  const isToday = (iso) => {
+    if (!iso) return false;
+    const d = new Date(iso), n = new Date();
+    return d.getFullYear() === n.getFullYear() && d.getMonth() === n.getMonth() && d.getDate() === n.getDate();
+  };
+  const escapeHtml = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[c]));
+
+  function renderCard(doc) {
+    const d = doc.data() || {};
+    const status = d.status === "confirmed" ? "confirmed" : "to_verify";
+    const priceBlock = status === "confirmed"
+      ? `<div class="price-value">${escapeHtml(d.priceLabel || "")}</div><small>precio confirmado</small>`
+      : `<div class="price-tbd">A verificar</div><small>abrir el link</small>`;
+    const locLabel = d.location ? escapeHtml(d.location) : "";
+    const typeLabel = d.type ? escapeHtml(d.type) : "";
+    const newPill = isToday(d.firstSeen) ? `<span class="pill new">Nuevo hoy</span>` : "";
+    const ageLabel = d.recencyBadge === "hoy" ? "Publicado hoy"
+      : d.recencyBadge === "semana" ? "Publicado esta semana"
+      : "";
+    const agePill = ageLabel ? `<span class="pill age">${ageLabel}</span>` : "";
+    return `
+      <div class="card ${status}">
+        <div class="card-main">
+          <a class="card-title" href="${escapeHtml(d.url || "#")}" target="_blank" rel="noopener">${escapeHtml(d.title || "Publicación")}</a>
+          <div class="card-meta">
+            ${locLabel ? `<span class="pill loc">${locLabel}</span>` : ""}
+            ${typeLabel ? `<span>${typeLabel}</span>` : ""}
+            ${agePill}
+            <span>visto ${fmtDate(d.firstSeen)}</span>
+            ${newPill}
+          </div>
+        </div>
+        <div class="card-price">${priceBlock}</div>
+      </div>`;
+  }
+
+  function renderGroup(containerId, docs, emptyText) {
+    const el = document.getElementById(containerId);
+    if (!docs.length) {
+      el.innerHTML = `<div class="empty">${emptyText}</div>`;
+      return;
+    }
+    docs.sort((a, b) => {
+      const da = a.data() || {}, db_ = b.data() || {};
+      const pa = typeof da.price === "number" ? da.price : Infinity;
+      const pb = typeof db_.price === "number" ? db_.price : Infinity;
+      if (pa !== pb) return pa - pb;
+      return (db_.firstSeen || "").localeCompare(da.firstSeen || "");
+    });
+    el.innerHTML = docs.map(renderCard).join("");
+  }
+
+  function renderStats(all) {
+    const confirmed = all.filter((d) => (d.data() || {}).status === "confirmed").length;
+    const toVerify = all.length - confirmed;
+    const el = document.getElementById("stats");
+    el.innerHTML = `
+      <div class="stat-chip"><b>${all.length}</b>&nbsp;publicaciones en seguimiento</div>
+      <div class="stat-chip"><b>${confirmed}</b>&nbsp;precio confirmado</div>
+      ${toVerify ? `<div class="stat-chip"><b>${toVerify}</b>&nbsp;a verificar</div>` : ""}
+    `;
+  }
+
+  function setupFilter() {
+    const buttons = Array.from(document.querySelectorAll('.filter-btn'));
+    const groupCV = document.getElementById('group-ciudad_vieja');
+    const groupCosta = document.getElementById('group-costa');
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        buttons.forEach((b) => { b.classList.remove('is-active'); b.setAttribute('aria-selected', 'false'); });
+        btn.classList.add('is-active');
+        btn.setAttribute('aria-selected', 'true');
+        const f = btn.getAttribute('data-filter');
+        groupCV.classList.toggle('is-hidden', f === 'costa');
+        groupCosta.classList.toggle('is-hidden', f === 'ciudad_vieja');
+      });
+    });
+  }
+
+  async function boot() {
+    setupFilter();
+    const el = document.getElementById("last-run");
+    let data;
+    try {
+      const r = await fetch("listings.json?v=" + Date.now(), { cache: "no-store" });
+      data = await r.json();
+    } catch (e) {
+      el.textContent = "No se pudieron cargar los datos. Probá recargar la página.";
+      return;
+    }
+    const docs = (data.listings || []).map((x) => ({ data: () => x }));
+    const cv = docs.filter((d) => d.data().group === "ciudad_vieja");
+    const costa = docs.filter((d) => d.data().group === "costa");
+    renderGroup("cards-ciudad_vieja", cv, "Hoy no hay publicaciones que cumplan estos criterios.");
+    renderGroup("cards-costa", costa, "Hoy no hay publicaciones que cumplan estos criterios.");
+    renderStats(docs);
+    if (data.updatedAt) {
+      const label = new Date(data.updatedAt).toLocaleString("es-UY", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
+      el.innerHTML = `Última actualización: <strong>${escapeHtml(label)}</strong>${data.note ? " · " + escapeHtml(data.note) : ""}`;
+    }
+  }
+
+  boot();
+})();
+</script>
+
+</body>
+</html>
