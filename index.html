@@ -296,6 +296,7 @@
     <button type="button" class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">Todos</button>
     <button type="button" class="filter-btn" data-filter="ciudad_vieja" role="tab" aria-selected="false">Ciudad Vieja</button>
     <button type="button" class="filter-btn" data-filter="costa" role="tab" aria-selected="false">Piriápolis y Punta del Este</button>
+    <button type="button" class="filter-btn" data-filter="new" role="tab" aria-selected="false" id="filter-new">Nuevos hoy</button>
   </div>
 
   <section class="group" id="group-ciudad_vieja">
@@ -393,18 +394,29 @@
     `;
   }
 
-  function setupFilter() {
-    const buttons = Array.from(document.querySelectorAll('.filter-btn'));
+  const state = { cv: [], costa: [] };
+
+  function applyFilter(filter) {
     const groupCV = document.getElementById('group-ciudad_vieja');
     const groupCosta = document.getElementById('group-costa');
+    groupCV.classList.toggle('is-hidden', filter === 'costa');
+    groupCosta.classList.toggle('is-hidden', filter === 'ciudad_vieja');
+    const onlyNew = filter === 'new';
+    const cvDocs = onlyNew ? state.cv.filter((d) => isToday((d.data() || {}).firstSeen)) : state.cv;
+    const costaDocs = onlyNew ? state.costa.filter((d) => isToday((d.data() || {}).firstSeen)) : state.costa;
+    const emptyText = onlyNew ? "No hay publicaciones nuevas hoy en esta zona." : "Hoy no hay publicaciones que cumplan estos criterios.";
+    renderGroup("cards-ciudad_vieja", cvDocs, emptyText);
+    renderGroup("cards-costa", costaDocs, emptyText);
+  }
+
+  function setupFilter() {
+    const buttons = Array.from(document.querySelectorAll('.filter-btn'));
     buttons.forEach((btn) => {
       btn.addEventListener('click', () => {
         buttons.forEach((b) => { b.classList.remove('is-active'); b.setAttribute('aria-selected', 'false'); });
         btn.classList.add('is-active');
         btn.setAttribute('aria-selected', 'true');
-        const f = btn.getAttribute('data-filter');
-        groupCV.classList.toggle('is-hidden', f === 'costa');
-        groupCosta.classList.toggle('is-hidden', f === 'ciudad_vieja');
+        applyFilter(btn.getAttribute('data-filter'));
       });
     });
   }
@@ -421,11 +433,13 @@
       return;
     }
     const docs = (data.listings || []).map((x) => ({ data: () => x }));
-    const cv = docs.filter((d) => d.data().group === "ciudad_vieja");
-    const costa = docs.filter((d) => d.data().group === "costa");
-    renderGroup("cards-ciudad_vieja", cv, "Hoy no hay publicaciones que cumplan estos criterios.");
-    renderGroup("cards-costa", costa, "Hoy no hay publicaciones que cumplan estos criterios.");
+    state.cv = docs.filter((d) => d.data().group === "ciudad_vieja");
+    state.costa = docs.filter((d) => d.data().group === "costa");
+    applyFilter("all");
     renderStats(docs);
+    const newCount = docs.filter((d) => isToday((d.data() || {}).firstSeen)).length;
+    const newBtn = document.getElementById("filter-new");
+    newBtn.textContent = `Nuevos hoy (${newCount})`;
     if (data.updatedAt) {
       const label = new Date(data.updatedAt).toLocaleString("es-UY", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
       el.innerHTML = `Última actualización: <strong>${escapeHtml(label)}</strong>${data.note ? " · " + escapeHtml(data.note) : ""}`;
