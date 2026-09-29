@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-09-28T20:05:00.000Z",
- "note": "4 nuevas · 1 retirada (ya no disponible)",
+ "updatedAt": "2026-09-29T16:10:22.000Z",
+ "note": "Sesión de MercadoLibre no disponible hoy (pidió verificación/captcha) — no se actualizaron las publicaciones",
  "listings": [
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -507,6 +507,20 @@
    "id": "MLU-700119595"
   },
   {
+   "firstSeen": "2026-09-28T20:05:00.000Z",
+   "group": "ciudad_vieja",
+   "lastSeen": "2026-09-28T20:05:00.000Z",
+   "location": "Ciudad Vieja",
+   "price": 79000,
+   "priceLabel": "U$S 79.000",
+   "recencyBadge": null,
+   "status": "confirmed",
+   "title": "Apartamento En Venta En Ciudad Vieja",
+   "type": null,
+   "url": "https://apartamento.mercadolibre.com.uy/MLU-1510285864-apartamento-en-venta-en-ciudad-vieja-_JM",
+   "id": "MLU-1510285864"
+  },
+  {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
    "lastSeen": "2026-09-25T16:12:31.000Z",
@@ -589,20 +603,6 @@
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-700655303-apartamento-en-venta-monoambiente-edificio-caracol-punta-del-este-_JM",
    "id": "MLU-700655303"
-  },
-  {
-   "firstSeen": "2026-09-28T20:05:00.000Z",
-   "group": "ciudad_vieja",
-   "lastSeen": "2026-09-28T20:05:00.000Z",
-   "location": "Ciudad Vieja",
-   "price": 79000,
-   "priceLabel": "U$S 79.000",
-   "recencyBadge": null,
-   "status": "confirmed",
-   "title": "Apartamento En Venta En Ciudad Vieja",
-   "type": null,
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-1510285864-apartamento-en-venta-en-ciudad-vieja-_JM",
-   "id": "MLU-1510285864"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -689,6 +689,20 @@
    "id": "MLU-698287947"
   },
   {
+   "firstSeen": "2026-09-28T20:05:00.000Z",
+   "group": "costa",
+   "lastSeen": "2026-09-28T20:05:00.000Z",
+   "location": "Punta del Este",
+   "price": 83000,
+   "priceLabel": "U$S 83.000",
+   "recencyBadge": "semana",
+   "status": "confirmed",
+   "title": "Apartamento Monoambiente En Venta En Punta Del Este",
+   "type": "monoambiente",
+   "url": "https://apartamento.mercadolibre.com.uy/MLU-700910309-apartamento-monoambiente-en-venta-en-punta-del-este-_JM",
+   "id": "MLU-700910309"
+  },
+  {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
    "lastSeen": "2026-09-25T16:12:31.000Z",
@@ -743,20 +757,6 @@
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-696760355-apartamento-monoambiente-en-venta-en-punta-del-este-ref-eqp8356-_JM",
    "id": "MLU-696760355"
-  },
-  {
-   "firstSeen": "2026-09-28T20:05:00.000Z",
-   "group": "costa",
-   "lastSeen": "2026-09-28T20:05:00.000Z",
-   "location": "Punta del Este",
-   "price": 83000,
-   "priceLabel": "U$S 83.000",
-   "recencyBadge": "semana",
-   "status": "confirmed",
-   "title": "Apartamento Monoambiente En Venta En Punta Del Este",
-   "type": "monoambiente",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-700910309-apartamento-monoambiente-en-venta-en-punta-del-este-_JM",
-   "id": "MLU-700910309"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -943,20 +943,6 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-09-28T20:05:00.000Z",
-   "location": "Punta del Este",
-   "price": 92000,
-   "priceLabel": "U$S 92.000",
-   "recencyBadge": "semana",
-   "status": "confirmed",
-   "title": "Cómodo Monoambiente",
-   "type": "monoambiente",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-1506586310-comodo-monoambiente-_JM",
-   "id": "MLU-1506586310"
-  },
-  {
-   "firstSeen": "2026-09-24T00:09:42.000Z",
-   "group": "costa",
    "lastSeen": "2026-09-25T16:12:31.000Z",
    "location": "Piriápolis",
    "price": 92000,
@@ -967,6 +953,20 @@
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1505921896-se-vende-apto-en-el-centro-de-piriapolis-entrega-us-55000-y-saldo-en-65-cuotas-_JM",
    "id": "MLU-1505921896"
+  },
+  {
+   "firstSeen": "2026-09-24T00:09:42.000Z",
+   "group": "costa",
+   "lastSeen": "2026-09-28T20:05:00.000Z",
+   "location": "Punta del Este",
+   "price": 92000,
+   "priceLabel": "U$S 92.000",
+   "recencyBadge": "semana",
+   "status": "confirmed",
+   "title": "Cómodo Monoambiente",
+   "type": "monoambiente",
+   "url": "https://apartamento.mercadolibre.com.uy/MLU-1506586310-comodo-monoambiente-_JM",
+   "id": "MLU-1506586310"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
