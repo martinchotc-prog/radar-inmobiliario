@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-01T16:12:28.000Z",
- "note": "Sin novedades: 0 nuevas, 1 retirada (Ciudad Vieja: Venta Apartamento 2 Dormitorios Ciudad Vieja Con Azotea)",
+ "updatedAt": "2026-10-02T16:00:00.000Z",
+ "note": "MercadoLibre sin actualizar desde 2026-10-01 · InfoCasas: 0 publicaciones (sitio no accesible hoy)",
  "listings": [
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -14,7 +14,8 @@
    "title": "Venta Apartamento Ciudad Vieja",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1506474942-venta-apartamento-ciudad-vieja-_JM",
-   "id": "MLU-1506474942"
+   "id": "MLU-1506474942",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -28,7 +29,8 @@
    "title": "Publicación De Fernández & Sención Asesores Inmobiliarios, Piriápolis",
    "type": "3 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-696619505-publicacion-de-fernandez-sencion-asesores-inmobiliarios-_JM",
-   "id": "MLU-696619505"
+   "id": "MLU-696619505",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -42,7 +44,8 @@
    "title": "Apartamento Tipo Dúplex En Piriápolis",
    "type": "3 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1301536736-apartamento-en-piriapolis-piriapolis-_JM",
-   "id": "MLU-1301536736"
+   "id": "MLU-1301536736",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T16:10:16.000Z",
@@ -56,7 +59,8 @@
    "title": "Venta Monoambiente/escritorio En Ciudad Vieja",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-700749211-venta-monoambienteescritorio-en-ciudad-vieja--_JM",
-   "id": "MLU-700749211"
+   "id": "MLU-700749211",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -70,7 +74,8 @@
    "title": "Monoambiente Con Renta En Ciudad Vieja",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1500643634-monoambiente-con-renta-en-ciudad-vieja-_JM",
-   "id": "MLU-1500643634"
+   "id": "MLU-1500643634",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -84,7 +89,8 @@
    "title": "Monoambiente En Ciudad Vieja",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1470734026-monoambiente-_JM",
-   "id": "MLU-1470734026"
+   "id": "MLU-1470734026",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -98,7 +104,8 @@
    "title": "Apartamento En Piriápolis",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-695178871-apartamento-en-piriapolis-piriapolis-_JM",
-   "id": "MLU-695178871"
+   "id": "MLU-695178871",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -112,7 +119,8 @@
    "title": "Apto A Reciclar 85 M2 Interior Bien Iluminado, Living Comedor Cocina Amplia, Altillo Azotea De Uso Exclusivo. 25 De Mayo 171",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1502169632-apto-a-reciclar-85-m2-us-63000-interior-bien-ilumimado-2-dor-living-comedor-cocina-amplia-altillo-azotea-de-uso-exclusivo-25-de-mayo-171entrada-por-corredor-semi-abierto-dueno-vende-_JM",
-   "id": "MLU-1502169632"
+   "id": "MLU-1502169632",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -126,7 +134,8 @@
    "title": "Vendo Apartamento 2 Dormitorios, Ciudad Vieja",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1504832610-vendo-apartamento-2-dormitorios-ciudad-vieja-_JM",
-   "id": "MLU-1504832610"
+   "id": "MLU-1504832610",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -140,7 +149,8 @@
    "title": "Apartamento En Venta Piedras Y Bartolomé Mitre",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-699229363-apartamento-en-venta-piedras-y-bartolome-mitre-_JM",
-   "id": "MLU-699229363"
+   "id": "MLU-699229363",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -154,7 +164,8 @@
    "title": "Inversión Monoambiente Ciudad Vieja - Renta Porto Seguro - Apto Banco",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1499917680-inversion-monoambiente-ciudad-vieja-renta-porto-seguro-apto-banco-_JM",
-   "id": "MLU-1499917680"
+   "id": "MLU-1499917680",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -168,7 +179,8 @@
    "title": "Venta Monoambiente En Ciudad Vieja Próximo A Sarandí",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1414055008-venta-monoambiente-en-ciudad-vieja-proximo-a-sarandi-_JM",
-   "id": "MLU-1414055008"
+   "id": "MLU-1414055008",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -182,7 +194,8 @@
    "title": "Venta De Apartamento Con Garaje, Ciudad Vieja",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-697026125-venta-de-apartamento-con-garaje-ciudad-vieja-_JM",
-   "id": "MLU-697026125"
+   "id": "MLU-697026125",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-28T20:05:00.000Z",
@@ -196,7 +209,8 @@
    "title": "Monoambiente Con Renta Ciudad Vieja",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-701171463-monoambiente-con-renta-ciudad-vieja-_JM",
-   "id": "MLU-701171463"
+   "id": "MLU-701171463",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -210,7 +224,8 @@
    "title": "Apartamento Venta Ciudad Vieja Montevideo Imas.uy S *",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1477269134-apartamento-venta-ciudad-vieja-montevideo-imasuy-s--_JM",
-   "id": "MLU-1477269134"
+   "id": "MLU-1477269134",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -224,7 +239,8 @@
    "title": "Oportunidad De Inversión, Piriápolis",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1494805530-oportunidad-de-inversion-_JM",
-   "id": "MLU-1494805530"
+   "id": "MLU-1494805530",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -238,7 +254,8 @@
    "title": "Apartamento Venta Un Dormitorio Planta Baja Ciudad Vieja Ref. 204",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-699046791-apartamento-venta-un-dormitorio-planta-baja-cuidad-vieja-ref-204-_JM",
-   "id": "MLU-699046791"
+   "id": "MLU-699046791",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -252,7 +269,8 @@
    "title": "Apartamento De 2 Dormitorios En Ciudad Vieja",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1493240680-apartamento-de-2-dormitorios-en-ciudad-vieja-_JM",
-   "id": "MLU-1493240680"
+   "id": "MLU-1493240680",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -266,7 +284,8 @@
    "title": "Apartamento 2 Dormitorios En Venta, Ciudad Vieja",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1506170654-apartamento-2-dormitorios-en-venta-ciudad-vieja-_JM",
-   "id": "MLU-1506170654"
+   "id": "MLU-1506170654",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -280,7 +299,8 @@
    "title": "1 Dormitorio Amueblado Centro",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1499858088-1-dormitorio-amueblado-centro-_JM",
-   "id": "MLU-1499858088"
+   "id": "MLU-1499858088",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -294,7 +314,8 @@
    "title": "Venta Apartamento A Reciclar 2 Dormitorios Altillo Azotea Exclusiva",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-695223853-venta-apartamento-a-reciclar-2dormitorios-altillo-azotea-exclusiva-_JM",
-   "id": "MLU-695223853"
+   "id": "MLU-695223853",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -308,7 +329,8 @@
    "title": "Oportunidad De Inversión: Apartamento En Subsuelo Con Gastos Optimizados En Península",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-698415043-oportunidad-de-inversion-apartamento-en-subsuelo-con-gastos-optimizados-en-peninsula-_JM",
-   "id": "MLU-698415043"
+   "id": "MLU-698415043",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -322,7 +344,8 @@
    "title": "Monoambiente En La Península De Punta Del Este, Luminoso Y Con Cochera",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1434603344-monoambiente-en-la-peninsula-de-punta-del-este-luminoso-y-con-cochera-_JM",
-   "id": "MLU-1434603344"
+   "id": "MLU-1434603344",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -336,7 +359,8 @@
    "title": "Apartamento En Venta Con Garaje En Ciudad Vieja, Bajó De Precio, Con Renta",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1435839020-apartamento-en-venta-c-garaje-en-ciudad-vieja-bajo-de-precio-con-renta-_JM",
-   "id": "MLU-1435839020"
+   "id": "MLU-1435839020",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-28T20:05:00.000Z",
@@ -350,7 +374,8 @@
    "title": "Apartamento En El Edificio British House, Península, Punta Del Este",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1509906580-espectacular-apartamento-en-el-emblematico-edificio-british-house-peninsula-punta-del-este-_JM",
-   "id": "MLU-1509906580"
+   "id": "MLU-1509906580",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-29T17:23:40.000Z",
@@ -364,7 +389,8 @@
    "title": "Oportunidad Venta Apartamento 1 Dormitorio Zona Peninsula",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1511165308-oportunidad-venta-apartamento-1-dormitorio-zona-peninsula-_JM",
-   "id": "MLU-1511165308"
+   "id": "MLU-1511165308",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -378,7 +404,8 @@
    "title": "Apartamento En Venta En Ciudad Vieja",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-656306909-apartamento-en-venta-en-ciudad-vieja-_JM",
-   "id": "MLU-656306909"
+   "id": "MLU-656306909",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -392,7 +419,8 @@
    "title": "Planta Baja Próxima A Plaza Independencia",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1475282652-planta-baja-proxima-a-plaza-independencia-_JM",
-   "id": "MLU-1475282652"
+   "id": "MLU-1475282652",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -406,7 +434,8 @@
    "title": "Venta De Apto De 1 O 2 Dormitorios En Ciudad Vieja",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1489486716-venta-de-apto-de-un-1-o-2-en-ciudad-vieja-_JM",
-   "id": "MLU-1489486716"
+   "id": "MLU-1489486716",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -420,7 +449,8 @@
    "title": "Planta Baja Próxima A Plaza Independencia",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1477304760-planta-baja-proxima-a-plaza-independencia-_JM",
-   "id": "MLU-1477304760"
+   "id": "MLU-1477304760",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -434,7 +464,8 @@
    "title": "Dueño Vende Monoambiente Amueblado En Plena Península, A Pasos Del Puerto Y La Playa De Los Ingleses",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1499011066-dueno-vende-monoambiente-amueblado-en-plena-peninsula-a-pasos-del-puerto-de-punta-del-este-y-a-metros-de-la-playa-de-los-ingleses--_JM",
-   "id": "MLU-1499011066"
+   "id": "MLU-1499011066",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -448,7 +479,8 @@
    "title": "Ciudad Vieja | Apartamento Planta Baja Con Patio Exclusivo",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1183110832-ciudad-vieja-apartamento-planta-baja-con-patio-exclusivo-_JM",
-   "id": "MLU-1183110832"
+   "id": "MLU-1183110832",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -462,7 +494,8 @@
    "title": "Piriápolis Zona Centro. Vendo Monoambiente A 300mts De La Playa",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1498872590-piriapolis-zona-centro-vendo-monoambiente-a-300mts-de-la-playa-_JM",
-   "id": "MLU-1498872590"
+   "id": "MLU-1498872590",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -476,7 +509,8 @@
    "title": "Apartamento De 2 Dormitorios Alquilado En Ciudad Vieja",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1487437084-apartamento-de-2-dormitorios-alquilado-en-ciudad-vieja-_JM",
-   "id": "MLU-1487437084"
+   "id": "MLU-1487437084",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -490,7 +524,8 @@
    "title": "Amplio Monoambiente Vivienda Promovida Ciudad Vieja",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-694023341-amplio-monoambiente-vivienda-promovida-ciudad-vieja-_JM",
-   "id": "MLU-694023341"
+   "id": "MLU-694023341",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -504,7 +539,8 @@
    "title": "Se Vende Apartamento 2 Dormitorios Ideal Inversor, Con Renta, Todo Reciclado En Ciudad Vieja",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-700119595-se-vende-apartamento-2-dormitorios-ideal-inversor-con-renta-todo-reciclado-en-ciudad-vieja-_JM",
-   "id": "MLU-700119595"
+   "id": "MLU-700119595",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -518,7 +554,8 @@
    "title": "Apartamento De 2 Dormitorios En Edificio De Época, De Sólida Construcción Y Estilo Clásico En Ciudad Vieja.",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1506181528-apartamento-de-2-dormitorios-en-edificio-de-epoca-de-solida-construccion-y-estilo-clasico-en-ciudad-vieja-_JM",
-   "id": "MLU-1506181528"
+   "id": "MLU-1506181528",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -532,7 +569,8 @@
    "title": "Venta De Apartamento 2 Dormitorios En Ciudad Vieja",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-697403147-venta-de-apartamento-2-dormitorios-en-ciudad-vieja-_JM",
-   "id": "MLU-697403147"
+   "id": "MLU-697403147",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-30T16:11:14.000Z",
@@ -546,7 +584,8 @@
    "title": "Venta Apartamento 2 Dormitorios Edificio De Epoca En Excelente Zona De Ciudad Vieja",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-701235505-venta-apartamento-2-dormitorios-edificio-de-epoca-en-excelente-zona-de-ciudad-vieja-_JM",
-   "id": "MLU-701235505"
+   "id": "MLU-701235505",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -560,7 +599,8 @@
    "title": "Venta Apartamento 2 Dormitorios Ciudad Vieja",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-700759103-venta-apartamento-2-dormitorios-ciudad-vieja-_JM",
-   "id": "MLU-700759103"
+   "id": "MLU-700759103",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-30T16:11:14.000Z",
@@ -574,7 +614,8 @@
    "title": "Venta Apartamento 2 Dormitorios Cuidad Vieja Montevideo",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1511249946-venta-apartamento-2-dormitorios-cuidad-vieja-montevideo-_JM",
-   "id": "MLU-1511249946"
+   "id": "MLU-1511249946",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -588,7 +629,8 @@
    "title": "Venta Apartamento Monoambiente Punta Del Este, Braglia 8972",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1042410622-venta-apartamento-monoambiente-punta-del-este-braglia-8972-_JM",
-   "id": "MLU-1042410622"
+   "id": "MLU-1042410622",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -602,7 +644,8 @@
    "title": "Apartamento En Venta Monoambiente Edificio Caracol, Punta Del Este",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-700655303-apartamento-en-venta-monoambiente-edificio-caracol-punta-del-este-_JM",
-   "id": "MLU-700655303"
+   "id": "MLU-700655303",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -616,7 +659,8 @@
    "title": "Venta De Monoambiente Sobre Gorlero, Punta Del Este",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-696302927-venta-de-monoambiente-sobre-gorlero-punta-del-este-_JM",
-   "id": "MLU-696302927"
+   "id": "MLU-696302927",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -630,7 +674,8 @@
    "title": "Apartamento En Centro De Piriápolis Sobre Av. Piria",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-665113025-1111-19-apartamento-en-centro-de-piriapolis-sobre-av-piria-_JM",
-   "id": "MLU-665113025"
+   "id": "MLU-665113025",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -644,7 +689,8 @@
    "title": "Venta Apartamento Península",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1233628318-venta-apartamento-peninsula-_JM",
-   "id": "MLU-1233628318"
+   "id": "MLU-1233628318",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T16:10:16.000Z",
@@ -658,7 +704,8 @@
    "title": "Venta Apartamento Península",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1508841438-venta-apartamento-peninsula-_JM",
-   "id": "MLU-1508841438"
+   "id": "MLU-1508841438",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -672,7 +719,8 @@
    "title": "Increíble Oportunidad, Apartamento En Venta En Península, Punta Del Este",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1496198248-increible-oportunidad-apartamento-en-venta-en-peninsul-punta-del-este-_JM",
-   "id": "MLU-1496198248"
+   "id": "MLU-1496198248",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -686,7 +734,8 @@
    "title": "Apartamento Monoambiente En Venta En Punta Del Este",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-698287947-apartamento-monoambiente-en-venta-en-punta-del-este-_JM",
-   "id": "MLU-698287947"
+   "id": "MLU-698287947",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-28T20:05:00.000Z",
@@ -700,7 +749,8 @@
    "title": "Apartamento Monoambiente En Venta En Punta Del Este",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-700910309-apartamento-monoambiente-en-venta-en-punta-del-este-_JM",
-   "id": "MLU-700910309"
+   "id": "MLU-700910309",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -714,7 +764,8 @@
    "title": "Apartamento Monoambiente En Venta En Punta Del Este",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-696764659-apartamento-monoambiente-en-venta-en-punta-del-este-_JM",
-   "id": "MLU-696764659"
+   "id": "MLU-696764659",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -728,7 +779,8 @@
    "title": "Apartamento Monoambiente En Venta En Punta Del Este",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1453525578-apartamento-monoambiente-en-venta-en-punta-del-este-_JM",
-   "id": "MLU-1453525578"
+   "id": "MLU-1453525578",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -742,7 +794,8 @@
    "title": "Apartamento Monoambiente En Venta En Punta Del Este",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-699984221-apartamento-monoambiente-en-venta-en-punta-del-este-_JM",
-   "id": "MLU-699984221"
+   "id": "MLU-699984221",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -756,7 +809,8 @@
    "title": "Apartamento Monoambiente En Venta En Punta Del Este - Ref: Eqp8356",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-696760355-apartamento-monoambiente-en-venta-en-punta-del-este-ref-eqp8356-_JM",
-   "id": "MLU-696760355"
+   "id": "MLU-696760355",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -770,7 +824,8 @@
    "title": "Apartamento En Centro De Piriápolis, Gastos Comunes Bajos",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1463627302-369-587-apartamento-en-centro-de-piriapolis-gastos-comunes-bajos-_JM",
-   "id": "MLU-1463627302"
+   "id": "MLU-1463627302",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -784,7 +839,8 @@
    "title": "Apartamento En Venta En Península, Punta Del Este",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1038755192-apartamento-en-venta-en-peninsula-punta-del-este-_JM",
-   "id": "MLU-1038755192"
+   "id": "MLU-1038755192",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -798,7 +854,8 @@
    "title": "Oportunidad, Piriápolis",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-684986009-oportunidad-_JM",
-   "id": "MLU-684986009"
+   "id": "MLU-684986009",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -812,7 +869,8 @@
    "title": "Apartamento En Edificio Acquarone, Centro De Piriápolis",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1477267122-apartamento-en-edificio-acquarone-vivi-el-centro-de-piriapolis-a-pocos-pasos-de-todo-_JM",
-   "id": "MLU-1477267122"
+   "id": "MLU-1477267122",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-29T17:23:40.000Z",
@@ -826,7 +884,8 @@
    "title": "Oportunidad! Apartamento Reciclado En Arcobaleno Anillo I Con Acciones De Piscina Y Dormitorio Independiente! Cochera Cubierta! Complejo Con Servicios Y Amenidades!",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1503524188-oportunidad-apartamento-reciclado-en-arcobaleno-anillo-i-con-acciones-de-piscina-y-dormitorio-independiente-cochera-cubierta-complejo-con-servicios-y-amenidades-_JM",
-   "id": "MLU-1503524188"
+   "id": "MLU-1503524188",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -840,7 +899,8 @@
    "title": "Península A Pasos Del Mar",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1500623988-peninsula-a-pasos-del-mar-_JM",
-   "id": "MLU-1500623988"
+   "id": "MLU-1500623988",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -854,7 +914,8 @@
    "title": "Muy Buen Monoambiente Con División En Arcobaleno",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1497561536-muy-buen-monoambiente-con-division-en-arcobaleno-_JM",
-   "id": "MLU-1497561536"
+   "id": "MLU-1497561536",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -868,7 +929,8 @@
    "title": "Apartamento 1 Dormitorio En Península - Inversión Única",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1042628986-apartamento-1-dormitorio-en-peninsula-inversion-unica-a-usd-90000-_JM",
-   "id": "MLU-1042628986"
+   "id": "MLU-1042628986",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -882,7 +944,8 @@
    "title": "Venta De Cómodo Monoambiente",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1343261950-venta-de-comodo-monoambiente-_JM",
-   "id": "MLU-1343261950"
+   "id": "MLU-1343261950",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -896,7 +959,8 @@
    "title": "Venta Apartamento 1 Dormitorio En Península",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-694563381-venta-apartamento-1-dormitorio-en-peninsula-_JM",
-   "id": "MLU-694563381"
+   "id": "MLU-694563381",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -910,7 +974,8 @@
    "title": "Oportunidad De Inversión, Piriápolis",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-698200891-oportunidad-de-inversion-_JM",
-   "id": "MLU-698200891"
+   "id": "MLU-698200891",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -924,7 +989,8 @@
    "title": "Oportunidad Venta Monoambiente Complejo Arcobaleno",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-694576251-oportunidad-venta-monoambiente-complejo-arcobaleno-_JM",
-   "id": "MLU-694576251"
+   "id": "MLU-694576251",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -938,7 +1004,8 @@
    "title": "Monoambiente En Primera Línea Playa Brava",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1479510676-monoambiente-en-primera-linea-playa-brava-en-venta-_JM",
-   "id": "MLU-1479510676"
+   "id": "MLU-1479510676",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-29T17:23:40.000Z",
@@ -952,7 +1019,8 @@
    "title": "Apto 1 D, 1 Baño, Remodelado. Excelente Ubicación, No Se Necesita Mover El Auto Se Llega A Todos Lados A Pie.muy Lindo Amueblado.(cerca De Todo)2 Pisos X Escalera.",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1510745996-apto-1-d-1-bano-remodelado-excelente-ubicacion-no-se-necesita-mover-el-auto-se-llega-a-todos-lados-a-piemuy-lindo-amuebladocerca-de-todo2-pisos-x-escalera-_JM",
-   "id": "MLU-1510745996"
+   "id": "MLU-1510745996",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -966,7 +1034,8 @@
    "title": "Venta De Apartamento En Punta Del Este, Monoambiente",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1501489730-venta-de-apartamento-en-punta-del-este-monoambiente-_JM",
-   "id": "MLU-1501489730"
+   "id": "MLU-1501489730",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-29T17:23:40.000Z",
@@ -980,7 +1049,8 @@
    "title": "Venta Apartamento 1 Dormitorio Boulevard Artigas Maldonado",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-698114509-venta-apartamento-1-dormitorio-boulevard-artigas-maldonado-_JM",
-   "id": "MLU-698114509"
+   "id": "MLU-698114509",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-29T17:23:40.000Z",
@@ -994,7 +1064,8 @@
    "title": "Venta Apartamento 1 Dormitorio Boulevard Artigas Maldonado",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1474162196-venta-apartamento-1-dormitorio-boulevard-artigas-maldonado-_JM",
-   "id": "MLU-1474162196"
+   "id": "MLU-1474162196",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-29T17:23:40.000Z",
@@ -1008,7 +1079,8 @@
    "title": "Venta Apartamento 1 Dormitorio Boulevard Artigas Maldonado",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1474179810-venta-apartamento-1-dormitorio-boulevard-artigas-maldonado-_JM",
-   "id": "MLU-1474179810"
+   "id": "MLU-1474179810",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-29T17:23:40.000Z",
@@ -1022,7 +1094,8 @@
    "title": "Venta Apartamento 1 Dormitorio Boulevard Artigas Maldonado",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1474171200-venta-apartamento-1-dormitorio-boulevard-artigas-maldonado-_JM",
-   "id": "MLU-1474171200"
+   "id": "MLU-1474171200",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1036,7 +1109,8 @@
    "title": "Se Vende Apto En El Centro De Piriápolis, Entrega Y Saldo En Cuotas",
    "type": "2 dormitorios",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1505921896-se-vende-apto-en-el-centro-de-piriapolis-entrega-us-55000-y-saldo-en-65-cuotas-_JM",
-   "id": "MLU-1505921896"
+   "id": "MLU-1505921896",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1050,7 +1124,8 @@
    "title": "Cómodo Monoambiente",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1506586310-comodo-monoambiente-_JM",
-   "id": "MLU-1506586310"
+   "id": "MLU-1506586310",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1064,7 +1139,8 @@
    "title": "Apartamento - Península",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1271642962-apartamento-peninsula-_JM",
-   "id": "MLU-1271642962"
+   "id": "MLU-1271642962",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-29T17:23:40.000Z",
@@ -1078,7 +1154,8 @@
    "title": "Venta Apartamento 1 Dormitorio Boulevard Artigas Maldonado",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1475828074-venta-apartamento-1-dormitorio-boulevard-artigas-maldonado-_JM",
-   "id": "MLU-1475828074"
+   "id": "MLU-1475828074",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1092,7 +1169,8 @@
    "title": "Monoambiente En Venta, Península",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1342154336-monoambiente-en-venta-peninsula-_JM",
-   "id": "MLU-1342154336"
+   "id": "MLU-1342154336",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1106,7 +1184,8 @@
    "title": "Monoambiente En Venta (bajó de precio)",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-695988873-monoambiente-en-venta-_JM",
-   "id": "MLU-695988873"
+   "id": "MLU-695988873",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1120,7 +1199,8 @@
    "title": "Oportunidad En Venta, Punta Del Este",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1274581258-oportunidad-en-venta-punta-del-este-_JM",
-   "id": "MLU-1274581258"
+   "id": "MLU-1274581258",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1134,7 +1214,8 @@
    "title": "Apartamento 1 Dormitorio En Pleno Centro De Piriápolis",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1504815334-apartamento-1-dormitorio-en-pleno-centro-de-piriapolis-_JM",
-   "id": "MLU-1504815334"
+   "id": "MLU-1504815334",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1148,7 +1229,8 @@
    "title": "Monoambiente En Venta, Punta Del Este",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1505921796-monoambiente-en-venta-punta-del-este-_JM",
-   "id": "MLU-1505921796"
+   "id": "MLU-1505921796",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1162,7 +1244,8 @@
    "title": "Apartamento En Venta En Península, Punta Del Este",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1039028708-apartamento-en-venta-en-peninsula-punta-del-este-_JM",
-   "id": "MLU-1039028708"
+   "id": "MLU-1039028708",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1176,7 +1259,8 @@
    "title": "Monoambiente En Aidy Grill",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1188021294-monoambiente-en-aidy-grill-_JM",
-   "id": "MLU-1188021294"
+   "id": "MLU-1188021294",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1190,7 +1274,8 @@
    "title": "Monoambiente En Punta Del Este, Ex Hotel Nogaró",
    "type": "1 dormitorio",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1503871876-monoambiente-en-punta-del-este-ex-hotel-nogaro-_JM",
-   "id": "MLU-1503871876"
+   "id": "MLU-1503871876",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1204,7 +1289,8 @@
    "title": "Oportunidad En Venta, Punta Del Este",
    "type": null,
    "url": "https://apartamento.mercadolibre.com.uy/MLU-1471410288-oportunidad-en-venta-punta-del-este-_JM",
-   "id": "MLU-1471410288"
+   "id": "MLU-1471410288",
+   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -1218,7 +1304,8 @@
    "title": "Venta Ya - Monoambiente En Playa Mansa",
    "type": "monoambiente",
    "url": "https://apartamento.mercadolibre.com.uy/MLU-863361086-venta-ya-monoambiente-en-mansa-_JM",
-   "id": "MLU-863361086"
+   "id": "MLU-863361086",
+   "source": "mercadolibre"
   }
  ]
 }

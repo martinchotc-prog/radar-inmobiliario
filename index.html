@@ -254,6 +254,11 @@
     margin-top: 3px;
   }
 
+  .filter-row.is-tight { margin-bottom: 10px; }
+  .filter-label { flex: 0 0 100%; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); }
+  .pill.src-ml { background: var(--warn-soft); color: var(--warn); }
+  .pill.src-ic { background: transparent; color: var(--text-muted); box-shadow: inset 0 0 0 1px var(--border); }
+
   .empty {
     border: 1px dashed var(--border);
     border-radius: 10px;
@@ -284,7 +289,7 @@
 <body>
 <div class="wrap">
   <header>
-    <span class="eyebrow">MercadoLibre Uruguay · búsqueda diaria</span>
+    <span class="eyebrow">MercadoLibre + InfoCasas · búsqueda diaria</span>
     <h1>Radar Inmobiliario</h1>
     <div class="status-row">
       <span id="last-run">Última búsqueda: cargando…</span>
@@ -292,11 +297,19 @@
     <div class="stats" id="stats"></div>
   </header>
 
-  <div class="filter-row" id="filter-row" role="tablist" aria-label="Filtrar por zona">
+  <div class="filter-row is-tight" id="filter-row" role="tablist" aria-label="Filtrar por zona">
+    <span class="filter-label">Zona</span>
     <button type="button" class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">Todos</button>
     <button type="button" class="filter-btn" data-filter="ciudad_vieja" role="tab" aria-selected="false">Ciudad Vieja</button>
     <button type="button" class="filter-btn" data-filter="costa" role="tab" aria-selected="false">Piriápolis y Punta del Este</button>
     <button type="button" class="filter-btn" data-filter="new" role="tab" aria-selected="false" id="filter-new">Nuevos hoy</button>
+  </div>
+
+  <div class="filter-row" id="source-row" role="tablist" aria-label="Filtrar por sitio">
+    <span class="filter-label">Sitio</span>
+    <button type="button" class="filter-btn src-btn is-active" data-source="all" role="tab" aria-selected="true">Todos los sitios</button>
+    <button type="button" class="filter-btn src-btn" data-source="mercadolibre" role="tab" aria-selected="false" id="src-ml">MercadoLibre</button>
+    <button type="button" class="filter-btn src-btn" data-source="infocasas" role="tab" aria-selected="false" id="src-ic">InfoCasas</button>
   </div>
 
   <section class="group" id="group-ciudad_vieja">
@@ -316,7 +329,7 @@
   </section>
 
   <footer>
-    <strong>Cómo funciona:</strong> esta página se actualiza sola todos los días a las 13:00 (Montevideo) con las publicaciones de MercadoLibre Uruguay que cumplen los criterios de cada zona. Se agregan las nuevas y se quitan las que ya no están publicadas (vendidas o dadas de baja). La etiqueta "Publicado hoy / esta semana" es la que muestra MercadoLibre; cuando no aparece, la publicación es más antigua. Tocá el título para abrir la publicación.
+    <strong>Cómo funciona:</strong> esta página se actualiza sola todos los días después de las 13:00 (Montevideo) con las publicaciones de MercadoLibre Uruguay e InfoCasas que cumplen los criterios de cada zona. Se agregan las nuevas y se quitan las que ya no están publicadas (vendidas o dadas de baja). Un mismo apartamento puede aparecer dos veces si está publicado en los dos sitios. La etiqueta "Publicado hoy / esta semana" es la que muestra MercadoLibre. Tocá el título para abrir la publicación.
   </footer>
 </div>
 
@@ -338,6 +351,8 @@
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
   }[c]));
 
+  const sourceOf = (d) => (d && d.source === "infocasas") ? "infocasas" : "mercadolibre";
+
   function renderCard(doc) {
     const d = doc.data() || {};
     const status = d.status === "confirmed" ? "confirmed" : "to_verify";
@@ -351,11 +366,13 @@
       : d.recencyBadge === "semana" ? "Publicado esta semana"
       : "";
     const agePill = ageLabel ? `<span class="pill age">${ageLabel}</span>` : "";
+    const srcPill = sourceOf(d) === "infocasas" ? `<span class="pill src-ic">InfoCasas</span>` : `<span class="pill src-ml">MercadoLibre</span>`;
     return `
       <div class="card ${status}">
         <div class="card-main">
           <a class="card-title" href="${escapeHtml(d.url || "#")}" target="_blank" rel="noopener">${escapeHtml(d.title || "Publicación")}</a>
           <div class="card-meta">
+            ${srcPill}
             ${locLabel ? `<span class="pill loc">${locLabel}</span>` : ""}
             ${typeLabel ? `<span>${typeLabel}</span>` : ""}
             ${agePill}
@@ -384,33 +401,51 @@
   }
 
   function renderStats(all) {
-    const confirmed = all.filter((d) => (d.data() || {}).status === "confirmed").length;
-    const toVerify = all.length - confirmed;
+    const ic = all.filter((d) => sourceOf(d.data() || {}) === "infocasas").length;
+    const ml = all.length - ic;
+    document.getElementById("src-ml").textContent = `MercadoLibre (${ml})`;
+    document.getElementById("src-ic").textContent = `InfoCasas (${ic})`;
+    const toVerify = all.filter((d) => (d.data() || {}).status !== "confirmed").length;
     const el = document.getElementById("stats");
     el.innerHTML = `
       <div class="stat-chip"><b>${all.length}</b>&nbsp;publicaciones en seguimiento</div>
-      <div class="stat-chip"><b>${confirmed}</b>&nbsp;precio confirmado</div>
       ${toVerify ? `<div class="stat-chip"><b>${toVerify}</b>&nbsp;a verificar</div>` : ""}
     `;
   }
 
-  const state = { cv: [], costa: [] };
+  const state = { cv: [], costa: [], zone: "all", source: "all" };
 
   function applyFilter(filter) {
+    if (filter) state.zone = filter; else filter = state.zone;
+    const bySource = (d) => state.source === "all" || sourceOf(d.data() || {}) === state.source;
     const groupCV = document.getElementById('group-ciudad_vieja');
     const groupCosta = document.getElementById('group-costa');
     groupCV.classList.toggle('is-hidden', filter === 'costa');
     groupCosta.classList.toggle('is-hidden', filter === 'ciudad_vieja');
     const onlyNew = filter === 'new';
-    const cvDocs = onlyNew ? state.cv.filter((d) => isToday((d.data() || {}).firstSeen)) : state.cv;
-    const costaDocs = onlyNew ? state.costa.filter((d) => isToday((d.data() || {}).firstSeen)) : state.costa;
+    const pick = (list) => list.filter((d) => bySource(d) && (!onlyNew || isToday((d.data() || {}).firstSeen)));
+    const cvDocs = pick(state.cv);
+    const costaDocs = pick(state.costa);
     const emptyText = onlyNew ? "No hay publicaciones nuevas hoy en esta zona." : "Hoy no hay publicaciones que cumplan estos criterios.";
+    const all = state.cv.concat(state.costa).filter(bySource);
+    const newBtn = document.getElementById("filter-new");
+    if (newBtn) newBtn.textContent = `Nuevos hoy (${all.filter((d) => isToday((d.data() || {}).firstSeen)).length})`;
     renderGroup("cards-ciudad_vieja", cvDocs, emptyText);
     renderGroup("cards-costa", costaDocs, emptyText);
   }
 
   function setupFilter() {
-    const buttons = Array.from(document.querySelectorAll('.filter-btn'));
+    const srcButtons = Array.from(document.querySelectorAll('.src-btn'));
+    srcButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        srcButtons.forEach((b) => { b.classList.remove('is-active'); b.setAttribute('aria-selected', 'false'); });
+        btn.classList.add('is-active');
+        btn.setAttribute('aria-selected', 'true');
+        state.source = btn.getAttribute('data-source');
+        applyFilter();
+      });
+    });
+    const buttons = Array.from(document.querySelectorAll('.filter-btn:not(.src-btn)'));
     buttons.forEach((btn) => {
       btn.addEventListener('click', () => {
         buttons.forEach((b) => { b.classList.remove('is-active'); b.setAttribute('aria-selected', 'false'); });
@@ -437,9 +472,6 @@
     state.costa = docs.filter((d) => d.data().group === "costa");
     applyFilter("all");
     renderStats(docs);
-    const newCount = docs.filter((d) => isToday((d.data() || {}).firstSeen)).length;
-    const newBtn = document.getElementById("filter-new");
-    newBtn.textContent = `Nuevos hoy (${newCount})`;
     if (data.updatedAt) {
       const label = new Date(data.updatedAt).toLocaleString("es-UY", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" });
       el.innerHTML = `Última actualización: <strong>${escapeHtml(label)}</strong>${data.note ? " · " + escapeHtml(data.note) : ""}`;
