@@ -224,6 +224,7 @@
   }
   .pill.loc { background: var(--accent-soft); color: var(--accent); }
   .pill.new { background: var(--accent); color: var(--surface); }
+  .pill.drop { background: var(--good-soft); color: var(--good); }
   .pill.age { background: var(--surface-2); color: var(--text-muted); }
 
   .card-price {
@@ -365,6 +366,8 @@
     const ageLabel = d.recencyBadge === "hoy" ? "Publicado hoy"
       : d.recencyBadge === "semana" ? "Publicado esta semana"
       : "";
+    const dropPill = (typeof d.previousPrice === "number" && typeof d.price === "number" && d.price < d.previousPrice)
+      ? `<span class="pill drop">▼ Bajó de ${escapeHtml(d.previousPriceLabel || ("U$S " + d.previousPrice.toLocaleString("es-UY")))}</span>` : "";
     const agePill = ageLabel ? `<span class="pill age">${ageLabel}</span>` : "";
     const srcPill = sourceOf(d) === "infocasas" ? `<span class="pill src-ic">InfoCasas</span>` : `<span class="pill src-ml">MercadoLibre</span>`;
     return `
@@ -378,6 +381,7 @@
             ${agePill}
             <span>visto ${fmtDate(d.firstSeen)}</span>
             ${newPill}
+            ${dropPill}
           </div>
         </div>
         <div class="card-price">${priceBlock}</div>
