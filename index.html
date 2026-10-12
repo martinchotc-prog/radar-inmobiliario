@@ -302,7 +302,8 @@
     <span class="filter-label">Zona</span>
     <button type="button" class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">Todos</button>
     <button type="button" class="filter-btn" data-filter="ciudad_vieja" role="tab" aria-selected="false">Ciudad Vieja</button>
-    <button type="button" class="filter-btn" data-filter="costa" role="tab" aria-selected="false">Piriápolis y Punta del Este</button>
+    <button type="button" class="filter-btn" data-filter="piriapolis" role="tab" aria-selected="false">Piriápolis</button>
+    <button type="button" class="filter-btn" data-filter="punta" role="tab" aria-selected="false">Punta del Este</button>
     <button type="button" class="filter-btn" data-filter="new" role="tab" aria-selected="false" id="filter-new">Nuevos hoy</button>
   </div>
 
@@ -321,12 +322,20 @@
     <div class="cards" id="cards-ciudad_vieja"></div>
   </section>
 
-  <section class="group" id="group-costa">
+  <section class="group" id="group-piriapolis">
     <div class="group-head">
-      <h2 class="group-title">Piriápolis / Punta del Este</h2>
+      <h2 class="group-title">Piriápolis</h2>
       <span class="group-budget">Cualquier tamaño · hasta USD 95.000</span>
     </div>
-    <div class="cards" id="cards-costa"></div>
+    <div class="cards" id="cards-piriapolis"></div>
+  </section>
+
+  <section class="group" id="group-punta">
+    <div class="group-head">
+      <h2 class="group-title">Punta del Este</h2>
+      <span class="group-budget">Cualquier tamaño · hasta USD 95.000</span>
+    </div>
+    <div class="cards" id="cards-punta"></div>
   </section>
 
   <footer>
@@ -417,25 +426,30 @@
     `;
   }
 
-  const state = { cv: [], costa: [], zone: "all", source: "all" };
+  const state = { cv: [], pir: [], punta: [], zone: "all", source: "all" };
 
   function applyFilter(filter) {
     if (filter) state.zone = filter; else filter = state.zone;
     const bySource = (d) => state.source === "all" || sourceOf(d.data() || {}) === state.source;
     const groupCV = document.getElementById('group-ciudad_vieja');
-    const groupCosta = document.getElementById('group-costa');
-    groupCV.classList.toggle('is-hidden', filter === 'costa');
-    groupCosta.classList.toggle('is-hidden', filter === 'ciudad_vieja');
+    const groupPir = document.getElementById('group-piriapolis');
+    const groupPunta = document.getElementById('group-punta');
+    const zoneOnly = filter === 'ciudad_vieja' || filter === 'piriapolis' || filter === 'punta';
+    groupCV.classList.toggle('is-hidden', zoneOnly && filter !== 'ciudad_vieja');
+    groupPir.classList.toggle('is-hidden', zoneOnly && filter !== 'piriapolis');
+    groupPunta.classList.toggle('is-hidden', zoneOnly && filter !== 'punta');
     const onlyNew = filter === 'new';
     const pick = (list) => list.filter((d) => bySource(d) && (!onlyNew || isToday((d.data() || {}).firstSeen)));
     const cvDocs = pick(state.cv);
-    const costaDocs = pick(state.costa);
+    const pirDocs = pick(state.pir);
+    const puntaDocs = pick(state.punta);
     const emptyText = onlyNew ? "No hay publicaciones nuevas hoy en esta zona." : "Hoy no hay publicaciones que cumplan estos criterios.";
-    const all = state.cv.concat(state.costa).filter(bySource);
+    const all = state.cv.concat(state.pir, state.punta).filter(bySource);
     const newBtn = document.getElementById("filter-new");
     if (newBtn) newBtn.textContent = `Nuevos hoy (${all.filter((d) => isToday((d.data() || {}).firstSeen)).length})`;
     renderGroup("cards-ciudad_vieja", cvDocs, emptyText);
-    renderGroup("cards-costa", costaDocs, emptyText);
+    renderGroup("cards-piriapolis", pirDocs, emptyText);
+    renderGroup("cards-punta", puntaDocs, emptyText);
   }
 
   function setupFilter() {
@@ -473,7 +487,9 @@
     }
     const docs = (data.listings || []).map((x) => ({ data: () => x }));
     state.cv = docs.filter((d) => d.data().group === "ciudad_vieja");
-    state.costa = docs.filter((d) => d.data().group === "costa");
+    const costa = docs.filter((d) => d.data().group === "costa");
+    state.pir = costa.filter((d) => d.data().location === "Piriápolis");
+    state.punta = costa.filter((d) => d.data().location !== "Piriápolis");
     applyFilter("all");
     renderStats(docs);
     if (data.updatedAt) {
