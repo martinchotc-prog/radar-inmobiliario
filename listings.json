@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-23T16:18:18Z",
- "note": "MercadoLibre: 1 nueva (Ciudad Vieja), 1 vendida/retirada (Ciudad Vieja) · InfoCasas: 2 nuevas (Punta del Este), 3 retiradas (2 Punta del Este, 1 Piriápolis)",
+ "updatedAt": "2026-10-24T16:18:15Z",
+ "note": "MercadoLibre sin actualizar desde 2026-10-23 · InfoCasas: 5 nuevas (4 Punta del Este, 1 Piriápolis); sin bajas porque no cargaron las páginas 2 en adelante y Punta del Este trajo menos de la mitad",
  "listings": [
   {
    "firstSeen": "2026-10-06T16:25:00.000Z",
@@ -80,7 +80,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-24T16:18:15Z",
    "location": "Ciudad Vieja",
    "price": 57000,
    "priceLabel": "U$S 57.000",
@@ -140,7 +140,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-24T16:18:15Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -275,7 +275,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-24T16:18:15Z",
    "location": "Ciudad Vieja",
    "price": 68000,
    "priceLabel": "U$S 68.000",
@@ -376,6 +376,21 @@
    "url": "https://apartamento.mercadolibre.com.uy/MLU-656306909-apartamento-en-venta-en-ciudad-vieja-_JM",
    "id": "MLU-656306909",
    "source": "mercadolibre"
+  },
+  {
+   "firstSeen": "2026-10-24T16:18:15Z",
+   "group": "costa",
+   "lastSeen": "2026-10-24T16:18:15Z",
+   "location": "Piriápolis",
+   "price": 73000,
+   "priceLabel": "U$S 73.000",
+   "recencyBadge": null,
+   "source": "infocasas",
+   "status": "confirmed",
+   "title": "Apartamento en venta de 1 dormitorio en Maldonado!!",
+   "type": "1 dormitorio",
+   "url": "https://www.infocasas.com.uy/apartamento-en-venta-de-1-dormitorio-en-maldonado/193136251",
+   "id": "IC-193136251"
   },
   {
    "firstSeen": "2026-10-02T14:03:35Z",
@@ -543,6 +558,23 @@
    "id": "MLU-1523107040"
   },
   {
+   "firstSeen": "2026-10-05T16:18:50Z",
+   "group": "ciudad_vieja",
+   "lastSeen": "2026-10-24T16:18:15Z",
+   "location": "Ciudad Vieja",
+   "price": 77000,
+   "priceLabel": "U$S 77.000",
+   "recencyBadge": null,
+   "source": "infocasas",
+   "status": "confirmed",
+   "title": "Apartamento en venta de 2 dormitorios en Ciudad Vieja acepta banco gastos bajos",
+   "type": "2 dormitorios",
+   "url": "https://www.infocasas.com.uy/apartamento-en-venta-de-2-dormitorios-en-ciudad-vieja-acepta-banco-gastos-bajos/194355807",
+   "id": "IC-194355807",
+   "previousPrice": 79000,
+   "previousPriceLabel": "U$S 79.000"
+  },
+  {
    "firstSeen": "2026-10-15T16:12:45Z",
    "group": "ciudad_vieja",
    "lastSeen": "2026-10-23T16:15:00Z",
@@ -605,7 +637,7 @@
   {
    "firstSeen": "2026-10-10T16:18:19Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-24T16:18:15Z",
    "location": "Ciudad Vieja",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -680,7 +712,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-24T16:18:15Z",
    "location": "Ciudad Vieja",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -695,7 +727,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-24T16:18:15Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -708,19 +740,19 @@
    "id": "IC-193319642"
   },
   {
-   "firstSeen": "2026-10-05T16:18:50Z",
-   "group": "ciudad_vieja",
-   "lastSeen": "2026-10-23T16:18:18Z",
-   "location": "Ciudad Vieja",
+   "firstSeen": "2026-10-24T16:18:15Z",
+   "group": "costa",
+   "lastSeen": "2026-10-24T16:18:15Z",
+   "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
    "recencyBadge": null,
    "source": "infocasas",
    "status": "confirmed",
-   "title": "Apartamento en venta de 2 dormitorios en Ciudad Vieja acepta banco gastos bajos",
-   "type": "2 dormitorios",
-   "url": "https://www.infocasas.com.uy/apartamento-en-venta-de-2-dormitorios-en-ciudad-vieja-acepta-banco-gastos-bajos/194355807",
-   "id": "IC-194355807"
+   "title": "Apartamento en Venta en Punta del Este, Mansa a 300 mts de la playa en muy lindo complejo con servicios",
+   "type": "1 dormitorio",
+   "url": "https://www.infocasas.com.uy/apartamento-en-venta-en-punta-del-este-mansa-a-300-mts-de-la-playa-en-muy-lindo-complejo-con-servicios/187666041",
+   "id": "IC-187666041"
   },
   {
    "firstSeen": "2026-10-12T16:14:06Z",
@@ -785,7 +817,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-24T16:18:15Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -800,7 +832,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-24T16:18:15Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -875,7 +907,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-24T16:18:15Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -963,6 +995,21 @@
    "id": "IC-194142792"
   },
   {
+   "firstSeen": "2026-10-24T16:18:15Z",
+   "group": "costa",
+   "lastSeen": "2026-10-24T16:18:15Z",
+   "location": "Punta del Este",
+   "price": 83000,
+   "priceLabel": "U$S 83.000",
+   "recencyBadge": null,
+   "source": "infocasas",
+   "status": "confirmed",
+   "title": "Apartamento Monoambiente en venta en Punta del Este",
+   "type": "monoambiente",
+   "url": "https://www.infocasas.com.uy/apartamento-monoambiente-en-venta-en-punta-del-este/193985663",
+   "id": "IC-193985663"
+  },
+  {
    "firstSeen": "2026-10-06T16:25:00.000Z",
    "group": "costa",
    "lastSeen": "2026-10-23T16:15:00Z",
@@ -1038,6 +1085,21 @@
    "source": "mercadolibre"
   },
   {
+   "firstSeen": "2026-10-24T16:18:15Z",
+   "group": "costa",
+   "lastSeen": "2026-10-24T16:18:15Z",
+   "location": "Punta del Este",
+   "price": 88000,
+   "priceLabel": "U$S 88.000",
+   "recencyBadge": null,
+   "source": "infocasas",
+   "status": "confirmed",
+   "title": "Venta de Apartamento en Punta del Este, Muy bien ubicado, con 1 dormitorio",
+   "type": "monoambiente",
+   "url": "https://www.infocasas.com.uy/venta-de-apartamento-en-punta-del-este-muy-bien-ubicado-con-1-dormitorio/187721445",
+   "id": "IC-187721445"
+  },
+  {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
    "lastSeen": "2026-10-23T16:15:00Z",
@@ -1100,7 +1162,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-24T16:18:15Z",
    "location": "Piriápolis",
    "price": 89000,
    "priceLabel": "U$S 89.000",
@@ -1250,7 +1312,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-24T16:18:15Z",
    "location": "Punta del Este",
    "price": 91215,
    "priceLabel": "U$S 91.215",
@@ -1278,6 +1340,21 @@
    "source": "mercadolibre"
   },
   {
+   "firstSeen": "2026-10-24T16:18:15Z",
+   "group": "costa",
+   "lastSeen": "2026-10-24T16:18:15Z",
+   "location": "Punta del Este",
+   "price": 91215,
+   "priceLabel": "U$S 91.215",
+   "recencyBadge": null,
+   "source": "infocasas",
+   "status": "confirmed",
+   "title": "Venta Apartamento 1 dormitorio Boulevard Artigas Maldonado",
+   "type": "1 dormitorio",
+   "url": "https://www.infocasas.com.uy/venta-apartamento-1-dormitorio-boulevard-artigas-maldonado/194070887",
+   "id": "IC-194070887"
+  },
+  {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
    "lastSeen": "2026-10-23T16:15:00Z",
@@ -1295,7 +1372,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-24T16:18:15Z",
    "location": "Punta del Este",
    "price": 93000,
    "priceLabel": "U$S 93.000",
