@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-25T16:17:33Z",
- "note": "MercadoLibre sin actualizar desde 2026-10-23 · InfoCasas: 2 nuevas (Piriápolis), 1 retirada (Ciudad Vieja); Punta del Este sin bajas porque solo cargó la página 1 y trajo menos de la mitad",
+ "updatedAt": "2026-10-26T16:18:22Z",
+ "note": "MercadoLibre sin actualizar desde 2026-10-23 · InfoCasas: 2 nuevas (Punta del Este), 0 retiradas; Punta del Este sin bajas porque solo cargó la página 1 y trajo menos de la mitad",
  "listings": [
   {
    "firstSeen": "2026-10-06T16:25:00.000Z",
@@ -80,7 +80,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Ciudad Vieja",
    "price": 57000,
    "priceLabel": "U$S 57.000",
@@ -125,7 +125,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -140,7 +140,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -230,7 +230,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Ciudad Vieja",
    "price": 66500,
    "priceLabel": "U$S 66.500",
@@ -275,7 +275,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Ciudad Vieja",
    "price": 68000,
    "priceLabel": "U$S 68.000",
@@ -380,7 +380,7 @@
   {
    "firstSeen": "2026-10-24T16:18:15Z",
    "group": "costa",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Piriápolis",
    "price": 73000,
    "priceLabel": "U$S 73.000",
@@ -395,7 +395,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Ciudad Vieja",
    "price": 74991,
    "priceLabel": "U$S 74.991",
@@ -436,6 +436,21 @@
    "type": "monoambiente",
    "url": "https://www.infocasas.com.uy/monoambiente-en-venta-peninsula/194142395",
    "id": "IC-194142395"
+  },
+  {
+   "firstSeen": "2026-10-26T16:18:22Z",
+   "group": "costa",
+   "lastSeen": "2026-10-26T16:18:22Z",
+   "location": "Punta del Este",
+   "price": 75000,
+   "priceLabel": "U$S 75.000",
+   "recencyBadge": null,
+   "source": "infocasas",
+   "status": "confirmed",
+   "title": "Apartamento en venta en Península, Punta del Este.",
+   "type": "monoambiente",
+   "url": "https://www.infocasas.com.uy/apartamento-en-venta-en-peninsula-punta-del-este/187764184",
+   "id": "IC-187764184"
   },
   {
    "firstSeen": "2026-10-08T16:13:10Z",
@@ -485,7 +500,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Ciudad Vieja",
    "price": 76000,
    "priceLabel": "U$S 76.000",
@@ -515,7 +530,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Ciudad Vieja",
    "price": 77000,
    "priceLabel": "U$S 77.000",
@@ -545,7 +560,7 @@
   {
    "firstSeen": "2026-10-05T16:18:50Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Ciudad Vieja",
    "price": 77000,
    "priceLabel": "U$S 77.000",
@@ -577,7 +592,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -622,7 +637,7 @@
   {
    "firstSeen": "2026-10-10T16:18:19Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Ciudad Vieja",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -697,7 +712,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Ciudad Vieja",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -712,7 +727,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -727,7 +742,7 @@
   {
    "firstSeen": "2026-10-24T16:18:15Z",
    "group": "costa",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -802,7 +817,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -817,7 +832,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -892,7 +907,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -967,7 +982,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -982,7 +997,7 @@
   {
    "firstSeen": "2026-10-24T16:18:15Z",
    "group": "costa",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -1072,7 +1087,7 @@
   {
    "firstSeen": "2026-10-24T16:18:15Z",
    "group": "costa",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Punta del Este",
    "price": 88000,
    "priceLabel": "U$S 88.000",
@@ -1147,7 +1162,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Piriápolis",
    "price": 89000,
    "priceLabel": "U$S 89.000",
@@ -1280,6 +1295,21 @@
    "id": "IC-194105103"
   },
   {
+   "firstSeen": "2026-10-26T16:18:22Z",
+   "group": "costa",
+   "lastSeen": "2026-10-26T16:18:22Z",
+   "location": "Punta del Este",
+   "price": 91000,
+   "priceLabel": "U$S 91.000",
+   "recencyBadge": null,
+   "source": "infocasas",
+   "status": "confirmed",
+   "title": "Venta Apartamento en Punta del Este, zona Roosevelt",
+   "type": "1 dormitorio",
+   "url": "https://www.infocasas.com.uy/venta-apartamento-en-punta-del-este-zona-roosevelt/187555325",
+   "id": "IC-187555325"
+  },
+  {
    "firstSeen": "2026-09-29T17:23:40.000Z",
    "group": "costa",
    "lastSeen": "2026-10-23T16:15:00Z",
@@ -1312,7 +1342,7 @@
   {
    "firstSeen": "2026-10-25T16:17:33Z",
    "group": "costa",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Piriápolis",
    "price": 91215,
    "priceLabel": "U$S 91.215",
@@ -1327,7 +1357,7 @@
   {
    "firstSeen": "2026-10-25T16:17:33Z",
    "group": "costa",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Piriápolis",
    "price": 91215,
    "priceLabel": "U$S 91.215",
@@ -1387,7 +1417,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-25T16:17:33Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Punta del Este",
    "price": 93000,
    "priceLabel": "U$S 93.000",
@@ -1462,7 +1492,7 @@
   {
    "firstSeen": "2026-10-14T16:19:04Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-26T16:18:22Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
