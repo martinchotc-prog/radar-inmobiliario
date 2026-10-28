@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-10-27T16:32:39Z",
- "note": "MercadoLibre: 1 nueva (Punta del Este), 5 vendidas/retiradas (Punta del Este) · InfoCasas: sin cambios hoy; Punta del Este sin bajas porque solo cargó la página 1 y trajo menos de la mitad",
+ "updatedAt": "2026-10-28T16:23:24Z",
+ "note": "MercadoLibre sin actualizar desde 2026-10-27 · InfoCasas: 1 nueva (Punta del Este), 2 retiradas (Ciudad Vieja); Punta del Este sin bajas porque solo cargó la página 1",
  "listings": [
   {
    "firstSeen": "2026-10-06T16:25:00.000Z",
@@ -80,7 +80,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Ciudad Vieja",
    "price": 57000,
    "priceLabel": "U$S 57.000",
@@ -125,7 +125,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -140,7 +140,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -230,7 +230,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Ciudad Vieja",
    "price": 66500,
    "priceLabel": "U$S 66.500",
@@ -275,7 +275,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Ciudad Vieja",
    "price": 68000,
    "priceLabel": "U$S 68.000",
@@ -365,7 +365,7 @@
   {
    "firstSeen": "2026-10-24T16:18:15Z",
    "group": "costa",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Piriápolis",
    "price": 73000,
    "priceLabel": "U$S 73.000",
@@ -376,21 +376,6 @@
    "type": "1 dormitorio",
    "url": "https://www.infocasas.com.uy/apartamento-en-venta-de-1-dormitorio-en-maldonado/193136251",
    "id": "IC-193136251"
-  },
-  {
-   "firstSeen": "2026-10-02T14:03:35Z",
-   "group": "ciudad_vieja",
-   "lastSeen": "2026-10-27T16:31:01Z",
-   "location": "Ciudad Vieja",
-   "price": 74991,
-   "priceLabel": "U$S 74.991",
-   "recencyBadge": null,
-   "source": "infocasas",
-   "status": "confirmed",
-   "title": "Monoambiente AMUEBLADO C/RENTA /Frente/Ciudad vieja/mt Rambla y Hospital Maciel",
-   "type": "monoambiente",
-   "url": "https://www.infocasas.com.uy/monoambiente-amueblado-crenta-frenteciudad-viejamt-rambla-y-hospital-maciel/194193014",
-   "id": "IC-194193014"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
@@ -483,21 +468,6 @@
    "source": "mercadolibre"
   },
   {
-   "firstSeen": "2026-10-02T14:03:35Z",
-   "group": "ciudad_vieja",
-   "lastSeen": "2026-10-27T16:31:01Z",
-   "location": "Ciudad Vieja",
-   "price": 76000,
-   "priceLabel": "U$S 76.000",
-   "recencyBadge": null,
-   "source": "infocasas",
-   "status": "confirmed",
-   "title": "Se Vende Apartamento 2 Dormitorios Ideal Inversor, Con Renta, Todo Reciclado En Ciudad Vieja",
-   "type": "2 dormitorios",
-   "url": "https://www.infocasas.com.uy/se-vende-apartamento-2-dormitorios-ideal-inversor-con-renta-todo-reciclado-en-ciudad-vieja/194236368",
-   "id": "IC-194236368"
-  },
-  {
    "firstSeen": "2026-10-19T12:47:00Z",
    "group": "ciudad_vieja",
    "lastSeen": "2026-10-27T16:32:39Z",
@@ -515,7 +485,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Ciudad Vieja",
    "price": 77000,
    "priceLabel": "U$S 77.000",
@@ -545,7 +515,7 @@
   {
    "firstSeen": "2026-10-05T16:18:50Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Ciudad Vieja",
    "price": 77000,
    "priceLabel": "U$S 77.000",
@@ -577,7 +547,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -622,7 +592,7 @@
   {
    "firstSeen": "2026-10-10T16:18:19Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Ciudad Vieja",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -697,7 +667,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Ciudad Vieja",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -802,7 +772,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -817,14 +787,14 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
    "recencyBadge": null,
    "source": "infocasas",
    "status": "confirmed",
-   "title": "Increible Oportunidad, Apartamento en venta en Penínsul, Punta del Este.",
+   "title": "Monoambiente en venta en Península, Punta del Este.",
    "type": "monoambiente",
    "url": "https://www.infocasas.com.uy/increible-oportunidad-apartamento-en-venta-en-peninsul-punta-del-este/193685635",
    "id": "IC-193685635"
@@ -892,7 +862,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -907,7 +877,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -937,7 +907,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -967,7 +937,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -982,7 +952,7 @@
   {
    "firstSeen": "2026-10-24T16:18:15Z",
    "group": "costa",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -1147,7 +1117,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Piriápolis",
    "price": 89000,
    "priceLabel": "U$S 89.000",
@@ -1297,7 +1267,7 @@
   {
    "firstSeen": "2026-10-25T16:17:33Z",
    "group": "costa",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Piriápolis",
    "price": 91215,
    "priceLabel": "U$S 91.215",
@@ -1312,7 +1282,7 @@
   {
    "firstSeen": "2026-10-25T16:17:33Z",
    "group": "costa",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Piriápolis",
    "price": 91215,
    "priceLabel": "U$S 91.215",
@@ -1357,7 +1327,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 93000,
    "priceLabel": "U$S 93.000",
@@ -1417,7 +1387,7 @@
   {
    "firstSeen": "2026-10-14T16:19:04Z",
    "group": "costa",
-   "lastSeen": "2026-10-27T16:31:01Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1492,7 +1462,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1507,7 +1477,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1550,6 +1520,21 @@
    "id": "IC-193470205"
   },
   {
+   "firstSeen": "2026-10-28T16:23:24Z",
+   "group": "costa",
+   "lastSeen": "2026-10-28T16:23:24Z",
+   "location": "Punta del Este",
+   "price": 95000,
+   "priceLabel": "U$S 95.000",
+   "recencyBadge": null,
+   "source": "infocasas",
+   "status": "confirmed",
+   "title": "MONOAMBIENTE EN EDIFICIO PUNTA DEL ESTE EN VENTA",
+   "type": "1 dormitorio",
+   "url": "https://www.infocasas.com.uy/monoambiente-en-edificio-punta-del-este-en-venta/194454183",
+   "id": "IC-194454183"
+  },
+  {
    "firstSeen": "2026-10-14T16:19:04Z",
    "group": "costa",
    "lastSeen": "2026-10-23T16:18:18Z",
@@ -1567,7 +1552,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-10-23T16:18:18Z",
+   "lastSeen": "2026-10-28T16:23:24Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
