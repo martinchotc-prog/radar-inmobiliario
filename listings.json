@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-11-10T15:49:48Z",
- "note": "MercadoLibre: 2 nuevas (Ciudad Vieja y Punta del Este), 1 vendida/retirada en Ciudad Vieja · InfoCasas: sin nuevas, 1 retirada (Punta del Este)",
+ "updatedAt": "2026-11-11T15:50:00Z",
+ "note": "MercadoLibre: sin publicaciones nuevas; 13 vendidas/retiradas (6 Ciudad Vieja, 7 Punta del Este) · InfoCasas: 1 nueva (Ciudad Vieja), sin retiradas",
  "listings": [
   {
    "firstSeen": "2026-10-29T15:23:38Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 28000,
    "priceLabel": "U$S 28.000",
@@ -20,7 +20,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Piriápolis",
    "price": 30000,
    "priceLabel": "U$S 30.000",
@@ -35,7 +35,7 @@
   {
    "firstSeen": "2026-09-24T16:10:16.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 39500,
    "priceLabel": "U$S 39.500",
@@ -50,7 +50,7 @@
   {
    "firstSeen": "2026-11-09T14:05:18Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 44000,
    "priceLabel": "U$S 44.000",
@@ -63,24 +63,24 @@
    "id": "IC-194339671"
   },
   {
-   "firstSeen": "2026-11-10T15:49:48Z",
+   "firstSeen": "2026-11-11T15:50:00Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 45000,
    "priceLabel": "U$S 45.000",
-   "recencyBadge": "hoy",
-   "source": "mercadolibre",
+   "recencyBadge": null,
+   "source": "infocasas",
    "status": "confirmed",
-   "title": "Estudio / Monoambiente En Ciudad Vieja",
-   "type": "1 dormitorio",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-1533092492-estudio-monoambiente-en-ciudad-vieja-_JM",
-   "id": "MLU-1533092492"
+   "title": "Mono",
+   "type": null,
+   "url": "https://www.infocasas.com.uy/ciudad-vieja-monoambiente-ideal-para-inversion-vivienda-u-oficina-usd-45000/194533323",
+   "id": "IC-194533323"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 55000,
    "priceLabel": "U$S 55.000",
@@ -95,7 +95,7 @@
   {
    "firstSeen": "2026-11-09T14:05:18Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 55000,
    "priceLabel": "U$S 55.000",
@@ -110,7 +110,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Piriápolis",
    "price": 60000,
    "priceLabel": "U$S 60.000",
@@ -123,24 +123,9 @@
    "source": "mercadolibre"
   },
   {
-   "firstSeen": "2026-10-13T16:21:13Z",
-   "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
-   "location": "Ciudad Vieja",
-   "price": 63000,
-   "priceLabel": "U$S 63.000",
-   "recencyBadge": null,
-   "source": "mercadolibre",
-   "status": "confirmed",
-   "title": "Vendo Apartamento 2 Dormitorios, Ciudad Vieja.",
-   "type": "2 dormitorios",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-1504832610-vendo-apartamento-2-dormitorios-ciudad-vieja-_JM",
-   "id": "MLU-1504832610"
-  },
-  {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -148,14 +133,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Apartamento en venta en Ciudad Vieja",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/apartamento-en-venta-en-ciudad-vieja/194334885",
    "id": "IC-194334885"
   },
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -163,14 +148,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "VENTA MONOAMBIENTE EN CIUDAD VIEJA PROXIMO A SARANDI",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/venta-monoambiente-en-ciudad-vieja-proximo-a-sarandi/193832989",
    "id": "IC-193832989"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -185,7 +170,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -200,7 +185,7 @@
   {
    "firstSeen": "2026-09-28T20:05:00.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -215,7 +200,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 66500,
    "priceLabel": "U$S 66.500",
@@ -230,7 +215,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 66500,
    "priceLabel": "U$S 66.500",
@@ -245,7 +230,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 67000,
    "priceLabel": "U$S 67.000",
@@ -260,7 +245,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 67900,
    "priceLabel": "U$S 67.900",
@@ -277,7 +262,7 @@
   {
    "firstSeen": "2026-10-30T16:42:10Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 67990,
    "priceLabel": "U$S 67.990",
@@ -292,7 +277,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 67990,
    "priceLabel": "U$S 67.990",
@@ -309,7 +294,7 @@
   {
    "firstSeen": "2026-11-03T16:17:53Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 67990,
    "priceLabel": "U$S 67.990",
@@ -322,39 +307,9 @@
    "id": "IC-194486102"
   },
   {
-   "firstSeen": "2026-10-12T16:14:06Z",
-   "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
-   "location": "Punta del Este",
-   "price": 68000,
-   "priceLabel": "U$S 68.000",
-   "recencyBadge": null,
-   "source": "mercadolibre",
-   "status": "confirmed",
-   "title": "Oportunidad De Inversión: Apartamento En Subsuelo Con Gastos Optimizados En Península",
-   "type": "2 dormitorios",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-698415043-oportunidad-de-inversion-apartamento-en-subsuelo-con-gastos-optimizados-en-peninsula-_JM",
-   "id": "MLU-698415043"
-  },
-  {
-   "firstSeen": "2026-09-24T00:09:42.000Z",
-   "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
-   "location": "Punta del Este",
-   "price": 69000,
-   "priceLabel": "U$S 69.000",
-   "recencyBadge": null,
-   "status": "confirmed",
-   "title": "Monoambiente En La Península De Punta Del Este, Luminoso Y Con Cochera",
-   "type": "1 dormitorio",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-1434603344-monoambiente-en-la-peninsula-de-punta-del-este-luminoso-y-con-cochera-_JM",
-   "id": "MLU-1434603344",
-   "source": "mercadolibre"
-  },
-  {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 69900,
    "priceLabel": "U$S 69.900",
@@ -369,7 +324,7 @@
   {
    "firstSeen": "2026-09-29T17:23:40.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 70000,
    "priceLabel": "U$S 70.000",
@@ -384,7 +339,7 @@
   {
    "firstSeen": "2026-11-04T16:52:58Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 70000,
    "priceLabel": "U$S 70.000",
@@ -399,7 +354,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 72000,
    "priceLabel": "U$S 72.000",
@@ -414,7 +369,7 @@
   {
    "firstSeen": "2026-11-04T19:16:32Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 72000,
    "priceLabel": "U$S 72.000",
@@ -422,14 +377,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Venta Apartamento En Ciudad Vieja, Monoambiente, Sin Gastos Comunes, Vivienda U Oficina, Planta Baja",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/venta-apartamento-en-ciudad-vieja-monoambiente-sin-gastos-comunes-vivienda-u-oficina-planta-baja/193229557",
    "id": "IC-193229557"
   },
   {
    "firstSeen": "2026-10-30T16:55:00Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 74991,
    "priceLabel": "U$S 74.991",
@@ -444,7 +399,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 75000,
    "priceLabel": "U$S 75.000",
@@ -459,7 +414,7 @@
   {
    "firstSeen": "2026-11-09T13:58:25Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 75000,
    "priceLabel": "U$S 75.000",
@@ -474,22 +429,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
-   "location": "Ciudad Vieja",
-   "price": 76000,
-   "priceLabel": "U$S 76.000",
-   "recencyBadge": null,
-   "status": "confirmed",
-   "title": "Amplio Monoambiente Vivienda Promovida Ciudad Vieja",
-   "type": "monoambiente",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-694023341-amplio-monoambiente-vivienda-promovida-ciudad-vieja-_JM",
-   "id": "MLU-694023341",
-   "source": "mercadolibre"
-  },
-  {
-   "firstSeen": "2026-09-24T00:09:42.000Z",
-   "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 76000,
    "priceLabel": "U$S 76.000",
@@ -504,7 +444,7 @@
   {
    "firstSeen": "2026-11-09T15:45:04Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 76000,
    "priceLabel": "U$S 76.000",
@@ -517,24 +457,9 @@
    "id": "IC-194236368"
   },
   {
-   "firstSeen": "2026-11-04T16:52:58Z",
-   "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
-   "location": "Ciudad Vieja",
-   "price": 77000,
-   "priceLabel": "U$S 77.000",
-   "recencyBadge": null,
-   "source": "mercadolibre",
-   "status": "confirmed",
-   "title": "Venta De Apartamento De 2 Dormitorios En Ciudad Vieja",
-   "type": "2 dormitorios",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-1528636986-venta-de-apartamento-de-2-dormitorios-en-ciudad-vieja-_JM",
-   "id": "MLU-1528636986"
-  },
-  {
    "firstSeen": "2026-10-23T16:15:00Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 77000,
    "priceLabel": "U$S 77.000",
@@ -549,7 +474,7 @@
   {
    "firstSeen": "2026-10-05T16:18:50Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 77000,
    "priceLabel": "U$S 77.000",
@@ -566,7 +491,7 @@
   {
    "firstSeen": "2026-10-15T16:12:45Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 78000,
    "priceLabel": "U$S 78.000",
@@ -581,7 +506,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -589,39 +514,9 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "En venta monoambiente, Punta Del Este",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/en-venta-monoambiente-punta-del-este/192517622",
    "id": "IC-192517622"
-  },
-  {
-   "firstSeen": "2026-10-13T16:21:13Z",
-   "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
-   "location": "Ciudad Vieja",
-   "price": 79000,
-   "priceLabel": "U$S 79.000",
-   "recencyBadge": null,
-   "source": "mercadolibre",
-   "status": "confirmed",
-   "title": "Venta Apartamento 2 Dormitorios Edificio De Epoca En Excelente Zona De Ciudad Vieja",
-   "type": "2 dormitorios",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-701235505-venta-apartamento-2-dormitorios-edificio-de-epoca-en-excelente-zona-de-ciudad-vieja-_JM",
-   "id": "MLU-701235505"
-  },
-  {
-   "firstSeen": "2026-09-24T00:09:42.000Z",
-   "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
-   "location": "Ciudad Vieja",
-   "price": 79000,
-   "priceLabel": "U$S 79.000",
-   "recencyBadge": null,
-   "status": "confirmed",
-   "title": "Venta Apartamento 2 Dormitorios Ciudad Vieja",
-   "type": "2 dormitorios",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-700759103-venta-apartamento-2-dormitorios-ciudad-vieja-_JM",
-   "id": "MLU-700759103",
-   "source": "mercadolibre"
   },
   {
    "firstSeen": "2026-10-10T16:18:19Z",
@@ -641,7 +536,7 @@
   {
    "firstSeen": "2026-09-30T16:11:14.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Ciudad Vieja",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -656,7 +551,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -671,7 +566,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Ciudad Vieja",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -686,7 +581,7 @@
   {
    "firstSeen": "2026-10-29T15:23:38Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -701,7 +596,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -709,29 +604,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Apartamentos en Península",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/apartamentos-en-peninsula/193319642",
    "id": "IC-193319642"
   },
   {
-   "firstSeen": "2026-10-12T16:14:06Z",
-   "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
-   "location": "Punta del Este",
-   "price": 79500,
-   "priceLabel": "U$S 79.500",
-   "recencyBadge": null,
-   "source": "mercadolibre",
-   "status": "confirmed",
-   "title": "Venta De Monoambiente Sobre Gorlero Punta Del Este",
-   "type": "monoambiente",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-696302927-venta-de-monoambiente-sobre-gorlero-punta-del-este-_JM",
-   "id": "MLU-696302927"
-  },
-  {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Piriápolis",
    "price": 80000,
    "priceLabel": "U$S 80.000",
@@ -746,7 +626,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 80000,
    "priceLabel": "U$S 80.000",
@@ -754,14 +634,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Apartamento en venta en Península",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/apartamento-en-venta-en-peninsula/193550114",
    "id": "IC-193550114"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 80000,
    "priceLabel": "U$S 80.000",
@@ -776,7 +656,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -784,14 +664,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Apartamento en venta en Península",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/apartamento-en-venta-en-peninsula/194319809",
    "id": "IC-194319809"
   },
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -799,14 +679,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Monoambiente en venta en Península, Punta del Este.",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/increible-oportunidad-apartamento-en-venta-en-peninsul-punta-del-este/193685635",
    "id": "IC-193685635"
   },
   {
    "firstSeen": "2026-09-24T16:10:16.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -821,7 +701,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -836,7 +716,7 @@
   {
    "firstSeen": "2026-09-28T20:05:00.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -849,24 +729,9 @@
    "source": "mercadolibre"
   },
   {
-   "firstSeen": "2026-09-24T00:09:42.000Z",
-   "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
-   "location": "Punta del Este",
-   "price": 83000,
-   "priceLabel": "U$S 83.000",
-   "recencyBadge": null,
-   "status": "confirmed",
-   "title": "Apartamento Monoambiente En Venta En Punta Del Este",
-   "type": "monoambiente",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-696764659-apartamento-monoambiente-en-venta-en-punta-del-este-_JM",
-   "id": "MLU-696764659",
-   "source": "mercadolibre"
-  },
-  {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -874,14 +739,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Apartamento Monoambiente en venta en Punta del Este - Ref : EQP8356",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/apartamento-monoambiente-en-venta-en-punta-del-este-ref-eqp8356/193985855",
    "id": "IC-193985855"
   },
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -896,7 +761,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -904,14 +769,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Apartamento Monoambiente en venta en Punta del Este",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/apartamento-monoambiente-en-venta-en-punta-del-este/193996238",
    "id": "IC-193996238"
   },
   {
    "firstSeen": "2026-11-09T14:05:18Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -926,7 +791,7 @@
   {
    "firstSeen": "2026-11-09T14:05:18Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -941,7 +806,7 @@
   {
    "firstSeen": "2026-10-08T16:13:10Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -956,7 +821,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -964,14 +829,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Apartamento Monoambiente en venta en Punta del Este",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/apartamento-monoambiente-en-venta-en-punta-del-este/194142792",
    "id": "IC-194142792"
   },
   {
    "firstSeen": "2026-10-06T16:25:00.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -986,7 +851,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -994,14 +859,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Apartamento Monoambiente en venta en Punta del Este",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/apartamento-monoambiente-en-venta-en-punta-del-este/194087512",
    "id": "IC-194087512"
   },
   {
    "firstSeen": "2026-11-09T13:58:25Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -1016,7 +881,7 @@
   {
    "firstSeen": "2026-10-12T13:00:00Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -1031,7 +896,7 @@
   {
    "firstSeen": "2026-11-04T16:52:58Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 85000,
    "priceLabel": "U$S 85.000",
@@ -1046,7 +911,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Piriápolis",
    "price": 85000,
    "priceLabel": "U$S 85.000",
@@ -1061,7 +926,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Piriápolis",
    "price": 85000,
    "priceLabel": "U$S 85.000",
@@ -1074,24 +939,9 @@
    "source": "mercadolibre"
   },
   {
-   "firstSeen": "2026-11-06T15:48:53Z",
-   "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
-   "location": "Punta del Este",
-   "price": 87900,
-   "priceLabel": "U$S 87.900",
-   "recencyBadge": null,
-   "source": "mercadolibre",
-   "status": "confirmed",
-   "title": "Arcobaleno Anillo I Con Acciones De Piscina! Excelente Estado! Dormitorio Compartimentado! Bajas Expensas! Cochera Cubierta! Ideal Renta De Temporada E Invernal! Complejo Con Servicios Y Amenidades!",
-   "type": null,
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-703006237-arcobaleno-anillo-i-con-acciones-de-piscina-excelente-estado-dormitorio-compartimentado-bajas-expensas-cochera-cubierta-ideal-renta-de-temporada-e-invernal-complejo-con-servicios-y-amenidades-_JM",
-   "id": "MLU-703006237"
-  },
-  {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 88000,
    "priceLabel": "U$S 88.000",
@@ -1106,7 +956,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 88000,
    "priceLabel": "U$S 88.000",
@@ -1114,14 +964,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Muy buen monoambiente con division en Arcobaleno",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/muy-buen-monoambiente-con-division-en-arcobaleno/194203314",
    "id": "IC-194203314"
   },
   {
    "firstSeen": "2026-10-23T16:18:18Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 89000,
    "priceLabel": "U$S 89.000",
@@ -1136,7 +986,7 @@
   {
    "firstSeen": "2026-10-23T16:18:18Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 89000,
    "priceLabel": "U$S 89.000",
@@ -1151,7 +1001,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 90000,
    "priceLabel": "U$S 90.000",
@@ -1166,7 +1016,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 90000,
    "priceLabel": "U$S 90.000",
@@ -1181,7 +1031,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Piriápolis",
    "price": 90000,
    "priceLabel": "U$S 90.000",
@@ -1196,7 +1046,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 90000,
    "priceLabel": "U$S 90.000",
@@ -1211,7 +1061,7 @@
   {
    "firstSeen": "2026-11-04T16:20:00Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 90000,
    "priceLabel": "U$S 90.000",
@@ -1226,7 +1076,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Piriápolis",
    "price": 92000,
    "priceLabel": "U$S 92.000",
@@ -1241,7 +1091,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 93000,
    "priceLabel": "U$S 93.000",
@@ -1249,14 +1099,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Apartamento - Península",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/apartamento-peninsula/189651189",
    "id": "IC-189651189"
   },
   {
    "firstSeen": "2026-10-29T15:23:38Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 93000,
    "priceLabel": "U$S 93.000",
@@ -1269,24 +1119,9 @@
    "id": "MLU-1525411158"
   },
   {
-   "firstSeen": "2026-10-12T16:14:06Z",
-   "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
-   "location": "Punta del Este",
-   "price": 94000,
-   "priceLabel": "U$S 94.000",
-   "recencyBadge": null,
-   "source": "mercadolibre",
-   "status": "confirmed",
-   "title": "Monoambiente En Venta . Peninsula",
-   "type": "monoambiente",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-1342154336-monoambiente-en-venta-peninsula-_JM",
-   "id": "MLU-1342154336"
-  },
-  {
    "firstSeen": "2026-10-14T16:19:04Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1301,7 +1136,7 @@
   {
    "firstSeen": "2026-11-10T15:49:48Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1314,24 +1149,9 @@
    "id": "MLU-1533068606"
   },
   {
-   "firstSeen": "2026-11-09T13:58:25Z",
-   "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
-   "location": "Punta del Este",
-   "price": 95000,
-   "priceLabel": "U$S 95.000",
-   "recencyBadge": null,
-   "source": "mercadolibre",
-   "status": "confirmed",
-   "title": "Apartamento Venta 1 Dormitorio Península",
-   "type": "1 dormitorio",
-   "url": "https://apartamento.mercadolibre.com.uy/MLU-1532373570-apartamento-venta-1-dormitorio-peninsula-_JM",
-   "id": "MLU-1532373570"
-  },
-  {
    "firstSeen": "2026-10-27T16:32:39Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1346,7 +1166,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1354,14 +1174,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Monoambiente en Venta Punta del Este",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/monoambiente-en-venta-punta-del-este/192236828",
    "id": "IC-192236828"
   },
   {
    "firstSeen": "2026-10-13T16:21:13Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1376,7 +1196,7 @@
   {
    "firstSeen": "2026-11-06T15:48:53Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1391,7 +1211,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1406,7 +1226,7 @@
   {
    "firstSeen": "2026-10-14T16:14:54Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1421,7 +1241,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1429,14 +1249,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "Monoambiente en Aidy Grill",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/monoambiente-en-aidy-grill/193470205",
    "id": "IC-193470205"
   },
   {
    "firstSeen": "2026-10-28T16:23:24Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1451,7 +1271,7 @@
   {
    "firstSeen": "2026-10-29T15:23:38Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1466,7 +1286,7 @@
   {
    "firstSeen": "2026-10-14T16:19:04Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1481,7 +1301,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1489,14 +1309,14 @@
    "source": "infocasas",
    "status": "confirmed",
    "title": "VENTA YA - MONOAMBIENTE EN MANSA",
-   "type": "monoambiente",
+   "type": null,
    "url": "https://www.infocasas.com.uy/venta-ya-monoambiente-en-mansa/192876607",
    "id": "IC-192876607"
   },
   {
    "firstSeen": "2026-10-17T16:17:57Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:50:00Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1511,7 +1331,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1526,7 +1346,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1541,7 +1361,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1556,7 +1376,7 @@
   {
    "firstSeen": "2026-10-16T16:56:33Z",
    "group": "costa",
-   "lastSeen": "2026-11-10T15:49:48Z",
+   "lastSeen": "2026-11-11T15:44:54Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
