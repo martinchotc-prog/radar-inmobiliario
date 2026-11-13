@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-11-12T12:00:00Z",
- "note": "MercadoLibre: 3 nuevas (2 Ciudad Vieja, 1 Punta del Este), sin ventas/retiros hoy · InfoCasas: sin publicaciones nuevas, 2 retiradas (1 Ciudad Vieja, 1 Punta del Este)",
+ "updatedAt": "2026-11-13T15:54:27Z",
+ "note": "MercadoLibre: 2 nuevas (Ciudad Vieja), sin ventas/retiros hoy · InfoCasas: 1 nueva (Ciudad Vieja), 1 retirada (Punta del Este)",
  "listings": [
   {
    "firstSeen": "2026-10-29T15:23:38Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 28000,
    "priceLabel": "U$S 28.000",
@@ -20,7 +20,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Piriápolis",
    "price": 30000,
    "priceLabel": "U$S 30.000",
@@ -35,7 +35,7 @@
   {
    "firstSeen": "2026-09-24T16:10:16.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 39500,
    "priceLabel": "U$S 39.500",
@@ -50,7 +50,7 @@
   {
    "firstSeen": "2026-11-09T14:05:18Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 44000,
    "priceLabel": "U$S 44.000",
@@ -65,7 +65,7 @@
   {
    "firstSeen": "2026-11-11T15:50:00Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 45000,
    "priceLabel": "U$S 45.000",
@@ -80,7 +80,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 55000,
    "priceLabel": "U$S 55.000",
@@ -95,7 +95,7 @@
   {
    "firstSeen": "2026-11-09T14:05:18Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 55000,
    "priceLabel": "U$S 55.000",
@@ -110,11 +110,11 @@
   {
    "firstSeen": "2026-11-12T12:00:00Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 58000,
    "priceLabel": "U$S 58.000",
-   "recencyBadge": "hoy",
+   "recencyBadge": null,
    "source": "mercadolibre",
    "status": "confirmed",
    "title": "Venta Apartamento 1 Dormitorio Ciudad Vieja",
@@ -125,7 +125,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Piriápolis",
    "price": 60000,
    "priceLabel": "U$S 60.000",
@@ -138,9 +138,24 @@
    "source": "mercadolibre"
   },
   {
+   "firstSeen": "2026-11-13T15:54:27Z",
+   "group": "ciudad_vieja",
+   "lastSeen": "2026-11-13T15:54:27Z",
+   "location": "Ciudad Vieja",
+   "price": 63000,
+   "priceLabel": "U$S 63.000",
+   "recencyBadge": null,
+   "source": "mercadolibre",
+   "status": "confirmed",
+   "title": "Vendo Apartamento 2 Dormitorios, Ciudad Vieja.",
+   "type": "2 dormitorios",
+   "url": "https://apartamento.mercadolibre.com.uy/MLU-1536592132-vendo-apartamento-2-dormitorios-ciudad-vieja-_JM",
+   "id": "MLU-1536592132"
+  },
+  {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -155,7 +170,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -170,7 +185,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -185,7 +200,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -200,7 +215,7 @@
   {
    "firstSeen": "2026-09-28T20:05:00.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 65000,
    "priceLabel": "U$S 65.000",
@@ -215,7 +230,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 66500,
    "priceLabel": "U$S 66.500",
@@ -230,7 +245,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 66500,
    "priceLabel": "U$S 66.500",
@@ -245,7 +260,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 67000,
    "priceLabel": "U$S 67.000",
@@ -260,7 +275,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 67900,
    "priceLabel": "U$S 67.900",
@@ -277,7 +292,7 @@
   {
    "firstSeen": "2026-10-30T16:42:10Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 67990,
    "priceLabel": "U$S 67.990",
@@ -292,7 +307,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 67990,
    "priceLabel": "U$S 67.990",
@@ -309,7 +324,7 @@
   {
    "firstSeen": "2026-11-03T16:17:53Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 67990,
    "priceLabel": "U$S 67.990",
@@ -324,7 +339,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 69900,
    "priceLabel": "U$S 69.900",
@@ -339,7 +354,7 @@
   {
    "firstSeen": "2026-09-29T17:23:40.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 70000,
    "priceLabel": "U$S 70.000",
@@ -354,7 +369,7 @@
   {
    "firstSeen": "2026-11-04T16:52:58Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 70000,
    "priceLabel": "U$S 70.000",
@@ -369,7 +384,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 72000,
    "priceLabel": "U$S 72.000",
@@ -384,7 +399,7 @@
   {
    "firstSeen": "2026-11-04T19:16:32Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 72000,
    "priceLabel": "U$S 72.000",
@@ -399,7 +414,7 @@
   {
    "firstSeen": "2026-10-30T16:55:00Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 74991,
    "priceLabel": "U$S 74.991",
@@ -412,9 +427,39 @@
    "id": "IC-194193014"
   },
   {
+   "firstSeen": "2026-11-13T15:54:27Z",
+   "group": "ciudad_vieja",
+   "lastSeen": "2026-11-13T15:54:27Z",
+   "location": "Ciudad Vieja",
+   "price": 75000,
+   "priceLabel": "U$S 75.000",
+   "recencyBadge": "hoy",
+   "source": "mercadolibre",
+   "status": "confirmed",
+   "title": "Venta Apartamento 1 Dormitorio - Ciudad Vieja",
+   "type": "1 dormitorio",
+   "url": "https://apartamento.mercadolibre.com.uy/MLU-1535911898-venta-apartamento-1-dormitorio-ciudad-vieja-_JM",
+   "id": "MLU-1535911898"
+  },
+  {
+   "firstSeen": "2026-11-13T15:54:27Z",
+   "group": "ciudad_vieja",
+   "lastSeen": "2026-11-13T15:54:27Z",
+   "location": "Ciudad Vieja",
+   "price": 75000,
+   "priceLabel": "U$S 75.000",
+   "recencyBadge": null,
+   "source": "infocasas",
+   "status": "confirmed",
+   "title": "Venta Apartamento 1 Dormitorio - Ciudad Vieja",
+   "type": "1 dormitorio",
+   "url": "https://www.infocasas.com.uy/venta-apartamento-1-dormitorio-ciudad-vieja/194552508",
+   "id": "IC-194552508"
+  },
+  {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 75000,
    "priceLabel": "U$S 75.000",
@@ -429,7 +474,7 @@
   {
    "firstSeen": "2026-11-09T13:58:25Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 75000,
    "priceLabel": "U$S 75.000",
@@ -444,7 +489,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 76000,
    "priceLabel": "U$S 76.000",
@@ -459,7 +504,7 @@
   {
    "firstSeen": "2026-11-09T15:45:04Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 76000,
    "priceLabel": "U$S 76.000",
@@ -474,7 +519,7 @@
   {
    "firstSeen": "2026-10-23T16:15:00Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 77000,
    "priceLabel": "U$S 77.000",
@@ -489,7 +534,7 @@
   {
    "firstSeen": "2026-10-05T16:18:50Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 77000,
    "priceLabel": "U$S 77.000",
@@ -506,7 +551,7 @@
   {
    "firstSeen": "2026-10-15T16:12:45Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 78000,
    "priceLabel": "U$S 78.000",
@@ -521,7 +566,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -536,7 +581,7 @@
   {
    "firstSeen": "2026-11-12T12:00:00Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -551,7 +596,7 @@
   {
    "firstSeen": "2026-09-30T16:11:14.000Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -566,7 +611,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -581,7 +626,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "ciudad_vieja",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Ciudad Vieja",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -596,7 +641,7 @@
   {
    "firstSeen": "2026-10-29T15:23:38Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -611,7 +656,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 79000,
    "priceLabel": "U$S 79.000",
@@ -626,7 +671,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Piriápolis",
    "price": 80000,
    "priceLabel": "U$S 80.000",
@@ -641,7 +686,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 80000,
    "priceLabel": "U$S 80.000",
@@ -656,7 +701,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 80000,
    "priceLabel": "U$S 80.000",
@@ -671,7 +716,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -686,7 +731,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -701,7 +746,7 @@
   {
    "firstSeen": "2026-09-24T16:10:16.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -716,7 +761,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 81900,
    "priceLabel": "U$S 81.900",
@@ -731,7 +776,7 @@
   {
    "firstSeen": "2026-09-28T20:05:00.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -746,7 +791,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -761,7 +806,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -776,7 +821,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -791,7 +836,7 @@
   {
    "firstSeen": "2026-11-09T14:05:18Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -806,7 +851,7 @@
   {
    "firstSeen": "2026-11-09T14:05:18Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -821,7 +866,7 @@
   {
    "firstSeen": "2026-10-08T16:13:10Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -836,7 +881,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -851,7 +896,7 @@
   {
    "firstSeen": "2026-10-06T16:25:00.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -866,7 +911,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -881,7 +926,7 @@
   {
    "firstSeen": "2026-11-09T13:58:25Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -896,7 +941,7 @@
   {
    "firstSeen": "2026-10-12T13:00:00Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 83000,
    "priceLabel": "U$S 83.000",
@@ -911,7 +956,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Piriápolis",
    "price": 85000,
    "priceLabel": "U$S 85.000",
@@ -926,7 +971,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Piriápolis",
    "price": 85000,
    "priceLabel": "U$S 85.000",
@@ -941,7 +986,7 @@
   {
    "firstSeen": "2026-11-04T16:52:58Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 87000,
    "priceLabel": "U$S 87.000",
@@ -956,7 +1001,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 88000,
    "priceLabel": "U$S 88.000",
@@ -971,7 +1016,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 88000,
    "priceLabel": "U$S 88.000",
@@ -986,7 +1031,7 @@
   {
    "firstSeen": "2026-10-23T16:18:18Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 89000,
    "priceLabel": "U$S 89.000",
@@ -1001,7 +1046,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 90000,
    "priceLabel": "U$S 90.000",
@@ -1016,7 +1061,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 90000,
    "priceLabel": "U$S 90.000",
@@ -1031,7 +1076,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Piriápolis",
    "price": 90000,
    "priceLabel": "U$S 90.000",
@@ -1046,7 +1091,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 90000,
    "priceLabel": "U$S 90.000",
@@ -1059,24 +1104,9 @@
    "source": "mercadolibre"
   },
   {
-   "firstSeen": "2026-11-04T16:20:00Z",
-   "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
-   "location": "Punta del Este",
-   "price": 90000,
-   "priceLabel": "U$S 90.000",
-   "recencyBadge": null,
-   "source": "infocasas",
-   "status": "confirmed",
-   "title": "OPORTUNIDAD FRENTE AL MAR | USD 90.000",
-   "type": "1 dormitorio",
-   "url": "https://www.infocasas.com.uy/oportunidad-frente-al-mar-usd-90000/194493163",
-   "id": "IC-194493163"
-  },
-  {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Piriápolis",
    "price": 92000,
    "priceLabel": "U$S 92.000",
@@ -1091,7 +1121,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 93000,
    "priceLabel": "U$S 93.000",
@@ -1106,7 +1136,7 @@
   {
    "firstSeen": "2026-10-29T15:23:38Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 93000,
    "priceLabel": "U$S 93.000",
@@ -1121,7 +1151,7 @@
   {
    "firstSeen": "2026-11-12T12:00:00Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 94000,
    "priceLabel": "U$S 94.000",
@@ -1136,7 +1166,7 @@
   {
    "firstSeen": "2026-10-14T16:19:04Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1151,7 +1181,7 @@
   {
    "firstSeen": "2026-11-10T15:49:48Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1166,7 +1196,7 @@
   {
    "firstSeen": "2026-10-27T16:32:39Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1181,7 +1211,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1196,7 +1226,7 @@
   {
    "firstSeen": "2026-10-13T16:21:13Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1211,7 +1241,7 @@
   {
    "firstSeen": "2026-11-06T15:48:53Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1226,7 +1256,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1241,7 +1271,7 @@
   {
    "firstSeen": "2026-10-14T16:14:54Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1256,7 +1286,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1271,7 +1301,7 @@
   {
    "firstSeen": "2026-10-28T16:23:24Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1286,7 +1316,7 @@
   {
    "firstSeen": "2026-10-29T15:23:38Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1301,7 +1331,7 @@
   {
    "firstSeen": "2026-10-14T16:19:04Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1316,7 +1346,7 @@
   {
    "firstSeen": "2026-10-02T14:03:35Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1331,7 +1361,7 @@
   {
    "firstSeen": "2026-10-17T16:17:57Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1346,7 +1376,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1361,7 +1391,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1376,7 +1406,7 @@
   {
    "firstSeen": "2026-09-24T00:09:42.000Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
@@ -1391,7 +1421,7 @@
   {
    "firstSeen": "2026-10-16T16:56:33Z",
    "group": "costa",
-   "lastSeen": "2026-11-12T12:00:00Z",
+   "lastSeen": "2026-11-13T15:54:27Z",
    "location": "Punta del Este",
    "price": 95000,
    "priceLabel": "U$S 95.000",
